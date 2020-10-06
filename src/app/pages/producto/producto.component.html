@@ -1,0 +1,57 @@
+<app-bread></app-bread>
+
+<div class="row row-cols-1 animated fadeIn slow">
+
+    <div class="">
+
+        <div class="col mb-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h2 class="card-title text-center">{{producto.nombre}}</h2>
+                    <hr *ngIf="producto.ingredientes">
+                    <h3 *ngIf="producto.ingredientes"><b> Ingredientes:</b></h3>
+                    <p *ngIf="producto.ingredientes" style="margin-bottom: 0;">{{producto.ingredientes}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row container">
+
+    <div class="col-8 col-md-4 offset-md-2" style="overflow: hidden;">
+        <div style="height:70%;line-height: 0;">
+            <div style="height:50%">
+                <img [src]="producto.imagen | imagenes" class="card-img-top" alt="..." style="width:120%;position:relative;left:-5%;">
+                <h5 *ngIf="producto.precio_gramo < 2" style="width:130%;line-height:15px;margin-bottom: 30px;margin-top: 10px;">Para comprar clica al círculo:</h5>
+                <div class="circulo-oferta" *ngIf="producto.oferta">
+                    <p>oferta</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-4 col-md-4 container" style="position:relative;left:7%;">
+        <div class="circulos-comprar mb-4 puntero" *ngIf="producto.precio_gramo < 2" (click)="comprarGr(50)">
+            <img src="/assets/img/bolsitas/icono-bolsa-50.png" alt="">
+            <p *ngIf="!producto.oferta">{{producto.precio_gramo * 50 | currency:'EUR'}}</p>
+            <p *ngIf="producto.oferta">{{producto.precio_gramo_oferta * 50 | currency:'EUR'}}</p>
+        </div>
+        <div class="circulos-comprar mb-4 puntero" *ngIf="producto.precio_gramo < 2" (click)="comprarGr(100)">
+            <img src="/assets/img/bolsitas/icono-bolsa-100.png" alt="">
+            <p *ngIf="!producto.oferta">{{producto.precio_gramo * 100 | currency:'EUR'}}</p>
+            <p *ngIf="producto.oferta">{{producto.precio_gramo_oferta * 100 | currency:'EUR'}}</p>
+        </div>
+        <div class="circulos-comprar puntero" *ngIf="producto.precio_gramo < 2" (click)="comprarGr(250)">
+            <img src="/assets/img/bolsitas/icono-bolsa-250.png" alt="">
+            <p *ngIf="!producto.oferta">{{producto.precio_gramo * 250 | currency:'EUR'}}</p>
+            <p *ngIf="producto.oferta">{{producto.precio_gramo_oferta * 250 | currency:'EUR'}}</p>
+        </div>
+        <h5 *ngIf="producto.precio_gramo > 1" style="width:130%;line-height:15px;">Para comprar clica al círculo:</h5>
+        <div class="circulos-comprar-prod" *ngIf="producto.precio_gramo > 1" (click)="comprarGr(1)">
+            <h5>La unidad a:</h5>
+            <p>{{producto.precio_gramo | currency:'EUR'}}</p>
+        </div>
+    </div>
+
+</div>

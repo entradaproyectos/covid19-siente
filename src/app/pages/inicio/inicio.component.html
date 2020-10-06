@@ -1,0 +1,176 @@
+<div class="main-container">
+
+    <img src="../../../assets/email/img/header.jpg" style="width: 100%;margin-top: -26px;" alt="">
+
+    <div class="text-center" *ngIf="loading">
+        <i class="fa fa-spinner fa-spin fa-3x mb-2" aria-hidden="true"></i>
+    </div>
+
+    <div class="flex-between mb-2" style="width: 100%;background-color: #AEBD00;" *ngIf="!loading" (click)="instrucciones = !instrucciones">
+        <h2 style="margin-bottom: 0px;margin-left: 10px;">Instrucciones - Guía</h2>
+        <div style="padding:2px 15px;">
+            <i class="fa fa-caret-down fa-2x" aria-hidden="true" style="color:#343a40" *ngIf="!instrucciones" (click)="instrucciones = true"></i>
+            <i class="fa fa-caret-up fa-2x" aria-hidden="true" style="color:#343a40" *ngIf="instrucciones" (click)="instrucciones = false"></i>
+        </div>
+    </div>
+    <div class="animated fadeIn slow mb-2" style="width: 100%;background-color: #d4d4d4de;padding:10px;" *ngIf="!loading && instrucciones">
+        <p style="margin-bottom: 0px;color: #343a40;">
+            <span style="font-weight:bold;color:#AEBD00">Hola tealover!</span> Hemos creado esta pequeña Web-App para poder pedir y gestionar los pedidos a domicilio más fácilmente mientras acabamos la futura tienda online. <span style="font-weight:bold;color:#AEBD00"> Es muy sencillo!</span><br>
+            <b>NUESTRO SERVICIO A DOMICILIO:</b> <br>
+            <i class="fa fa-asterisk" aria-hidden="true"></i> Área de reparto: <b>Toda la Península y Baleares. Entrega en 24-48h.</b><br>
+            <i class="fa fa-asterisk" aria-hidden="true"></i> Precio del servicio: 4,50€ <br>
+            <i class="fa fa-asterisk" aria-hidden="true"></i> Al finalizar tu pedido deberás marcar la opción donde será el reparto: Barcelona Província (4,50), Resto de Cataluña (4,90€), Otras províncias (4,90€) o Baleares (11,90€). El precio se sumará
+            al total de tu pedido.<br>
+            <b>MÉTODOS DE PAGO:</b> <br>
+            <i class="fa fa-asterisk" aria-hidden="true"></i> Transferencia y Paypal (link directo). <br>
+            <b>SOBRE ESTA WEB-APP:</b><br>
+            <i class="fa fa-asterisk" aria-hidden="true"></i> Verás que no tienes que hacer login <i>(para tu mayor seguridad, no guardamos ningún dato)</i>, pero sí encontrarás tus pedidos anteriores si uilizas la web-app en el mismo dispositivo.<br>
+            <i class="fa fa-asterisk" aria-hidden="true"></i> El método de compra sigue los procesos habituales en las tiendas online.<br>
+            <i class="fa fa-asterisk" aria-hidden="true"></i> Una vez tengas listo tu carrito de compra, al clicar a "Enviar", tu móvil pedirá que abras el programa para enviar un email. El mail se genera automáticamente con los datos de tu pedido, nos
+            pones tus datos de envío y facturación, lo envías y te contestaremos lo más rápidamente posible.(En entorno Apple no funciona el envío de mail, tendrás que copiar y pegar el pedido en un mail directo a tienda@siente.es)<br>
+            <i class="fa fa-asterisk" aria-hidden="true"></i> Te enviaremos un mail con la confirmación de tu pedido (según stock) y los métodos de pago. Cuando esté hecho el pago, nos respondes adjuntando la confirmación de pago para agilizar las cosas.<br>
+            <span style="font-weight:bold;color:#AEBD00">Gracias por tu confianza en Siente ;)</span>
+        </p>
+    </div>
+    <!-- <div class="flex-between mb-2" style="width: 100%;background-color: rgb(207, 176, 38);" *ngIf="!loading && dispositivo == 'Ordenador'">
+        <h2 style="margin-bottom: 0px;margin-left: 10px;">Estás mirando la app desde un ordenador</h2>
+    </div> -->
+
+    <!-- <div class="flex-between mb-2" style="width: 100%;background-color: #AEBD00;" *ngIf="!loading" (click)="mapa = !mapa">
+        <h2 style="margin-bottom: 0px;margin-left: 10px;">Zona de Reparto <small>¡¡¡Ampliamos!!!</small></h2>
+        <div style="padding:2px 15px;">
+            <i class="fa fa-caret-down fa-2x" aria-hidden="true" style="color:#343a40" *ngIf="!mapa" (click)="mapa = true"></i>
+            <i class="fa fa-caret-up fa-2x" aria-hidden="true" style="color:#343a40" *ngIf="mapa" (click)="mapa = false"></i>
+        </div>
+    </div> -->
+
+    <!-- <div class="animated fadeIn slow mb-2 text-center" style="width: 100%;background-color: #d4d4d4de;padding:10px;" *ngIf="!loading && mapa">
+        <img src="/assets/img/mapa-area-sanitaria.jpg" style="width: 100%; max-width: 800px;" alt="">
+    </div> -->
+
+    <div class="animated fadeIn slow mb-2 text-center" style="width: 100%;" *ngIf="!loading && desktop">
+        <img src="/assets/img/banner-otono-grande.jpg" style="width: 100%; max-width: 1400px;" alt="">
+    </div>
+
+    <div class="animated fadeIn slow mb-2 text-center" style="width: 100%;" *ngIf="!loading && !desktop">
+        <img src="/assets/img/banner-otono-pequeno.jpg" style="width: 100%; max-width: 800px;" alt="">
+    </div>
+
+    <div class="row row-cols-3 row-cols-md-5 animated fadeIn slow mr-1" *ngIf="!loading">
+        <div class="col" *ngFor="let producto of ofertas" style="height:70%" (click)="abrirProducto(producto.id_prod)">
+            <div style="height:50%">
+                <div class="circulo-precio-inicio">
+                    <img src="/assets/img/bolsitas/icono-bolsa-50.png" alt="">
+                    <p *ngIf="producto.precio_gramo_oferta < 2">{{producto.precio_gramo_oferta * 50 | currency:'EUR'}}</p>
+                    <p *ngIf="producto.precio_gramo_oferta > 1">{{producto.precio_gramo_oferta | currency:'EUR'}}</p>
+                </div>
+                <div class="circulo-new-inicio" *ngIf="producto.new">
+                    <p>New</p>
+                </div>
+                <div class="circulo-oferta-inicio" *ngIf="producto.oferta">
+                    <p>Oferta</p>
+                </div>
+                <img [src]="producto.imagen | imagenes" alt="..." style="width:120%">
+            </div>
+            <div class="text-center">
+                <h5 style="line-height: 14px;">{{producto.nombre}}</h5>
+            </div>
+        </div>
+    </div>
+
+    <div style="width: 100%;background-color: #AEBD00;" *ngIf="!loading">
+        <h2 style="margin-bottom: 0px;margin-left: 10px;">Categorias</h2>
+    </div>
+
+    <div class="row row-cols-3 row-cols-md-5 animated fadeIn slow mr-1" *ngIf="!loading">
+        <div class="col" style="height:70%" [routerLink]="['/categorias',1]">
+            <div style="height:50%">
+                <img src="../../../assets/img/primaria-te-a-granel.png" alt="..." style="width:120%">
+            </div>
+            <div class="text-center">
+                <h5 style="line-height: 14px;">Té a Granel</h5>
+            </div>
+        </div>
+
+        <div class="col" style="height:70%" [routerLink]="['/categorias',2]">
+            <div style="height:50%">
+                <img src="../../../assets/img/primaria-infusiones a granel.png" alt="..." style="width:120%">
+            </div>
+            <div class="text-center">
+                <h5 style="line-height: 14px;">Infusiones a Granel</h5>
+            </div>
+        </div>
+
+        <div class="col" style="height:70%" [routerLink]="['/categorias',3]">
+            <div style="height:50%">
+                <img src="../../../assets/img/primaria-infusiones y te envasados.png" alt="..." style="width:120%">
+            </div>
+            <div class="text-center">
+                <h5 style="line-height: 14px;">Infusiones y Té envasados</h5>
+            </div>
+        </div>
+    </div>
+
+    <div style="width: 100%;background-color: #AEBD00;" *ngIf="!loading">
+        <h2 style="margin-bottom: 0px;margin-left: 10px;">Top Ventas</h2>
+    </div>
+    <div class="row row-cols-3 row-cols-md-5 animated fadeIn slow mr-1" *ngIf="!loading">
+        <div class="col" *ngFor="let producto of top_ventas" style="height:70%" (click)="abrirProducto(producto.id_prod)">
+            <div style="height:50%">
+                <div class="circulo-precio-inicio">
+                    <img src="/assets/img/bolsitas/icono-bolsa-50.png" alt="">
+                    <p *ngIf="producto.precio_gramo < 2">{{producto.precio_gramo * 50 | currency:'EUR'}}</p>
+                    <p *ngIf="producto.precio_gramo > 1">{{producto.precio_gramo | currency:'EUR'}}</p>
+                </div>
+                <img [src]="producto.imagen | imagenes" alt="..." style="width:120%">
+            </div>
+            <div class="text-center">
+                <h5 style="line-height: 14px;">{{producto.nombre}}</h5>
+            </div>
+        </div>
+    </div>
+
+    <div style="width: 100%;background-color: #AEBD00;" *ngIf="!loading">
+        <h2 style="margin-bottom: 0px;margin-left: 10px;">Destacados</h2>
+    </div>
+    <div class="row row-cols-3 row-cols-md-5 animated fadeIn slow mr-1" *ngIf="!loading">
+        <div class="col" *ngFor="let producto of destacados" style="height:70%" (click)="abrirProducto(producto.id_prod)">
+            <div style="height:50%">
+                <div class="circulo-precio-inicio">
+                    <img src="/assets/img/bolsitas/icono-bolsa-50.png" alt="">
+                    <p *ngIf="producto.precio_gramo < 2">{{producto.precio_gramo * 50 | currency:'EUR'}}</p>
+                    <p *ngIf="producto.precio_gramo > 1">{{producto.precio_gramo | currency:'EUR'}}</p>
+                </div>
+                <div class="circulo-new-inicio" *ngIf="producto.new">
+                    <p>New</p>
+                </div>
+                <img [src]="producto.imagen | imagenes" alt="..." style="width:120%">
+            </div>
+            <div class="text-center">
+                <h5 style="line-height: 14px;">{{producto.nombre}}</h5>
+            </div>
+        </div>
+    </div>
+
+    <div style="width: 100%;background-color: #AEBD00;" class="text-center">
+        <h2 style="margin-bottom: 0px;margin-left: 10px;">ENCUÉNTRANOS</h2>
+    </div>
+    <div style="width: 100%;background-color: #343a40;padding:10px;color: #ffffff;" class="text-center">
+        <div class="datos-pedido mb-1">
+            <p style="margin-bottom: 0px;"><i class="fa fa-map-marker" aria-hidden="true"></i> Calle Rogent 96, Barcelona</p>
+            <a href="https://api.whatsapp.com/send?phone=34673004968" target="_blank" rel="noopener noreferrer">
+                <p style="margin-bottom: 0px; text-decoration: none;color: #ffffff;font-size:15px;"> <u> 673 00 49 68 </u> <i class="fa fa-whatsapp" aria-hidden="true"></i></p>
+            </a>
+        </div>
+
+        <div class="datos-pedido">
+            <a href="tel:+34934508858">
+                <p style="margin-bottom: 0px; text-decoration: none;color: #ffffff;font-size:15px;"><i class="fa fa-phone" aria-hidden="true"></i> <u> 934 50 88 58 </u> </p>
+            </a>
+            <a href="mailto:hola@siente.es">
+                <p style="margin-bottom: 0px; text-decoration: none;color: #ffffff;font-size:15px;"><u> hola@siente.es  </u> <i class="fa fa-envelope-o" aria-hidden="true"></i></p>
+            </a>
+        </div>
+    </div>
+
+</div>

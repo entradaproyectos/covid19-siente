@@ -1,0 +1,1701 @@
+[{
+        "id_prod": 1,
+        "id_categoria": 8,
+        "nombre": "Té blanco Mao Feng BIO (Vietnam)",
+        "ingredientes": "Hoja enrollada, más astringencia que el Pai Mu Tan",
+        "precio_gramo": 0.1,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-blanco-mao-feng-bio-50.jpg"
+    },
+    {
+        "id_prod": 2,
+        "id_categoria": 8,
+        "nombre": "Té blanco Pai Mu Tan BIO (China)",
+        "ingredientes": "Suave, hoja sin enrollar",
+        "precio_gramo": 0.168,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-blanco-pai-mu-tan-bio-50.jpg"
+    },
+    {
+        "id_prod": 3,
+        "id_categoria": 8,
+        "nombre": "Té blanco Silver needle (lata 40 gr) (China)",
+        "ingredientes": "SOLO brotes de té. Lata 40 grs.",
+        "precio_gramo": 15,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-blanco-silver-needles-lata-40-gr-lata.jpg"
+    },
+    {
+        "id_prod": 4,
+        "id_categoria": 16,
+        "nombre": "Té negro Assam BOP BIO (Índia)",
+        "ingredientes": "Té negro fuerte, en bolitas (broken)",
+        "precio_gramo": 0.089,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-negro-assam-bio.jpg"
+    },
+    {
+        "id_prod": 5,
+        "id_categoria": 16,
+        "nombre": "Té negro Ceylon OP DESCAFEINADO (Sri Lanka)",
+        "ingredientes": "",
+        "precio_gramo": 0.09,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-negro-ceylon.jpg"
+    },
+    {
+        "id_prod": 6,
+        "id_categoria": 16,
+        "nombre": "Té negro Ceylon OP Kenilworth (Sri Lanka)",
+        "ingredientes": "",
+        "precio_gramo": 0.081,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-negro-ceylon.jpg"
+    },
+    {
+        "id_prod": 7,
+        "id_categoria": 16,
+        "nombre": "Té negro Darjeeling SFTGFOP 1 (Índia)",
+        "ingredientes": "",
+        "precio_gramo": 0.11,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-negro-darjeeling.jpg"
+    },
+    {
+        "id_prod": 8,
+        "id_categoria": 16,
+        "nombre": "Té negro English Breakfast",
+        "ingredientes": "Mezcla de té de Ceylán y té de Assam",
+        "precio_gramo": 0.061,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-negro-english-breakfast.jpg"
+    },
+    {
+        "id_prod": 9,
+        "id_categoria": 16,
+        "nombre": "Té negro Irish Breakfast",
+        "ingredientes": "Mezcla de Assam y té negro chino",
+        "precio_gramo": 0.072,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-negro-irish-breakfast.jpg"
+    },
+    {
+        "id_prod": 10,
+        "id_categoria": 16,
+        "nombre": "Té negro Jinjing OP BIO (China)",
+        "ingredientes": "",
+        "precio_gramo": 0.071,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-negro-Jinjing-bio.jpg"
+    },
+    {
+        "id_prod": 11,
+        "id_categoria": 16,
+        "nombre": "Té negro Lapsang Souchong  (China)",
+        "ingredientes": "Ahumado",
+        "precio_gramo": 0.075,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-negro-lapsang-souchong.jpg"
+    },
+    {
+        "id_prod": 12,
+        "id_categoria": 16,
+        "nombre": "Té negro Sikkim BIO (Índia)",
+        "ingredientes": "Parecido al Darjeeling, más intenso",
+        "precio_gramo": 0.099,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-negro-sikkim-bio.jpg"
+    },
+    {
+        "id_prod": 13,
+        "id_categoria": 16,
+        "nombre": "Té negro Southindian OP Korakundah BIO (Índia)",
+        "ingredientes": "",
+        "precio_gramo": 0.083,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-negro-southindia-bio.jpg"
+    },
+    {
+        "id_prod": 14,
+        "id_categoria": 13,
+        "nombre": "Té oolong Osmanthus  (China)",
+        "ingredientes": "Con flores de Osmanto, recuerdan al melocotón",
+        "precio_gramo": 0.099,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-oolong-osmanthus.jpg"
+    },
+    {
+        "id_prod": 15,
+        "id_categoria": 13,
+        "nombre": "Té oolong Almendra dulce y chocolate",
+        "ingredientes": "Té Oolong, cáscara de cacao, almendra, nueces, chocolate, chips de coco.",
+        "precio_gramo": 0.083,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-oolong-almendra-dulce-y-chocolate.jpg"
+    },
+    {
+        "id_prod": 16,
+        "id_categoria": 12,
+        "nombre": "Té oolong Shui Xian BIO  (China)",
+        "ingredientes": "Oolong de alta oxidación y más tostado (\"más negro\")",
+        "precio_gramo": 0.107,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-oolong-shui-xian-bio.jpg"
+    },
+    {
+        "id_prod": 17,
+        "id_categoria": 12,
+        "nombre": "Té oolong Tie Guan Yin BIO  (China)",
+        "ingredientes": "Oolong de baja oxidación (\"más verde\")",
+        "precio_gramo": 0.112,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-oolong-tie-guan-yin-bio.jpg"
+    },
+    {
+        "id_prod": 18,
+        "id_categoria": 14,
+        "nombre": "Té Pu erh (rojo)  (China)",
+        "ingredientes": "",
+        "precio_gramo": 0.076,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-pu-erh.jpg"
+    },
+    {
+        "id_prod": 19,
+        "id_categoria": 14,
+        "nombre": "Té Pu erh Premium  (China)",
+        "ingredientes": "Pu erh de 7 años de fermentación",
+        "precio_gramo": 0.142,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-pu-erh-premium.jpg"
+    },
+    {
+        "id_prod": 20,
+        "id_categoria": 10,
+        "nombre": "Té verde Bancha BIO  (China)",
+        "ingredientes": "Poca cafeína",
+        "precio_gramo": 0.078,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-verde-bancha-bio.jpg"
+    },
+    {
+        "id_prod": 21,
+        "id_categoria": 10,
+        "nombre": "Té verde Genmaicha BIO (China)",
+        "ingredientes": "Té Bancha con arroz tostado",
+        "precio_gramo": 0.101,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-verde-genmaicha-china-bio.jpg"
+    },
+    {
+        "id_prod": 22,
+        "id_categoria": 10,
+        "nombre": "Té verde Genmaicha BIO (Japón)",
+        "ingredientes": "Té verde sencha con arroz tostado",
+        "precio_gramo": 0.152,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-verde-genmaicha-japon-bio.jpg"
+    },
+    {
+        "id_prod": 23,
+        "id_categoria": 10,
+        "nombre": "Té verde Gunpowder temple of heaven  (China)",
+        "ingredientes": "El más común. En bolitas, más fuerte.",
+        "precio_gramo": 0.06,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-verde-gunpowder.jpg"
+    },
+    {
+        "id_prod": 24,
+        "id_categoria": 10,
+        "nombre": "Té verde Houjicha BIO (Japón)",
+        "ingredientes": "Con ramitas  y hojas grandes, tostado. Muy poca cafeína.",
+        "precio_gramo": 0.12,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-verde-houjicha-bio.jpg"
+    },
+    {
+        "id_prod": 25,
+        "id_categoria": 10,
+        "nombre": "Té verde Jazmín Mao Jian BIO  (China)",
+        "ingredientes": "Con jazmín",
+        "precio_gramo": 0.092,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-verde-jazmin-mao-jian-bio.jpg"
+    },
+    {
+        "id_prod": 26,
+        "id_categoria": 10,
+        "nombre": "Té verde Kukicha BIO (Japón)",
+        "ingredientes": "Con ramitas y hojas, más fresco. My poca cafeína",
+        "precio_gramo": 0.155,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-verde-kukicha-bio.jpg"
+    },
+    {
+        "id_prod": 27,
+        "id_categoria": 10,
+        "nombre": "Té verde Sencha BIO (China)",
+        "ingredientes": "El otro verde más común. Más suave.",
+        "precio_gramo": 0.078,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-verde-sencha-china-bio.jpg"
+    },
+    {
+        "id_prod": 28,
+        "id_categoria": 10,
+        "nombre": "Té verde Sencha DESCAFEINADO (China)",
+        "ingredientes": "",
+        "precio_gramo": 0.092,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-verde-sencha-descafeinado.jpg"
+    },
+    {
+        "id_prod": 29,
+        "id_categoria": 10,
+        "nombre": "Té verde Sencha Okumidori BIO (Japón)",
+        "ingredientes": "",
+        "precio_gramo": 0.14,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-verde-sencha-okumidori-bio.jpg"
+    },
+    {
+        "id_prod": 30,
+        "id_categoria": 10,
+        "nombre": "Té verde South Korea OP BIO (Corea del Sur)",
+        "ingredientes": "Suave, vaporizado.",
+        "precio_gramo": 0.122,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-verde-south-korea-bio.jpg"
+    },
+    {
+        "id_prod": 31,
+        "id_categoria": 10,
+        "nombre": "Té verde White hair  (China)",
+        "ingredientes": "Con muchos brotes de té, suave y dulce",
+        "precio_gramo": 0.101,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-verde-white-hair.jpg"
+    },
+    {
+        "id_prod": 32,
+        "id_categoria": 18,
+        "nombre": "Té verde Matcha beginners (lata 40 gramos)",
+        "ingredientes": "Latita lila. El más sencillo después del culinario. Puedes hacerlo con leche",
+        "precio_gramo": 18,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-matcha-kagoshima-beginners-40g.jpg"
+    },
+    {
+        "id_prod": 33,
+        "id_categoria": 18,
+        "nombre": "Té verde Matcha Gyokujou BIO (lata 20 gramos)",
+        "ingredientes": "Latita negra. Matcha premium. No mezclar con leche.",
+        "precio_gramo": 21,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-matcha-gyokujou-bio-20g.jpg"
+    },
+    {
+        "id_prod": 34,
+        "id_categoria": 18,
+        "nombre": "Té verde Matcha Morimoto BIO (bolsa 50 gramos)",
+        "ingredientes": "El intermedio, buena calidad. Ouedes mezclarlo con leche",
+        "precio_gramo": 26,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-matcha-morimoto-bio-50g.jpg"
+    },
+    {
+        "id_prod": 35,
+        "id_categoria": 18,
+        "nombre": "Té verde Matcha Culinario BIO (bolsa 100 gr)",
+        "ingredientes": "Bolsa blanca. Un buen matcha para cocinar, tomar con leche, etc.",
+        "precio_gramo": 23,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-matcha-culinario-bio-100g.jpg"
+    },
+    {
+        "id_prod": 36,
+        "id_categoria": 18,
+        "nombre": "Té verde Matcha Miumori BIO (lata 20 gr)",
+        "ingredientes": "Latita verde. El más premium. No mezclar con leche",
+        "precio_gramo": 24,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-matcha-miumori-bio-20g.jpg"
+    },
+    {
+        "id_prod": 37,
+        "id_categoria": 11,
+        "nombre": "Té verde Açai Goji",
+        "ingredientes": "Té Sencha, café verde, bayas de goji, mate, açaí, hibisco blanco y remolacha. ",
+        "precio_gramo": 0.078,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-verde-acai-goji.jpg"
+    },
+    {
+        "id_prod": 38,
+        "id_categoria": 11,
+        "nombre": "Té verde Al Ándalus",
+        "ingredientes": "Té Sencha, membrillo, naranja, azahar, jazmín.",
+        "precio_gramo": 0.077,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-verde-al-andalus.jpg"
+    },
+    {
+        "id_prod": 39,
+        "id_categoria": 11,
+        "nombre": "Té verde Almendra tostada ",
+        "ingredientes": "Té Sencha, té blanco Pai Mu Tan, almendra, coco y canela",
+        "precio_gramo": 0.077,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-verde-almendra-tostada.jpg"
+    },
+    {
+        "id_prod": 40,
+        "id_categoria": 11,
+        "nombre": "Té verde Canela",
+        "ingredientes": "Té Sencha con canela en rama.",
+        "precio_gramo": 0.075,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-verde-canela.jpg"
+    },
+    {
+        "id_prod": 41,
+        "id_categoria": 11,
+        "nombre": "Té verde Caramelo",
+        "ingredientes": "Té Sencha, trozos de caramelo, azahar y nueces de cola.",
+        "precio_gramo": 0.076,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-verde-caramelo.jpg"
+    },
+    {
+        "id_prod": 42,
+        "id_categoria": 11,
+        "nombre": "Té verde Cereza japonesa",
+        "ingredientes": "Té Sencha y cereza.",
+        "precio_gramo": 0.077,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-verde-cereza-japonesa.jpg"
+    },
+    {
+        "id_prod": 43,
+        "id_categoria": 11,
+        "nombre": "Té verde Earl Grey BIO",
+        "ingredientes": "Té Sencha, aroma de bergamota.",
+        "precio_gramo": 0.076,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-verde-earl-grey-bio.jpg"
+    },
+    {
+        "id_prod": 44,
+        "id_categoria": 11,
+        "nombre": "Té verde Frutas del bosque",
+        "ingredientes": "Té Sencha, bayas de saúco, hojas de mora, fresa, moras, grosellas.",
+        "precio_gramo": 0.076,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-verde-frutas-del-bosque.jpg",
+        "oferta": false,
+        "precio_gramo_oferta": 0.072
+    },
+    {
+        "id_prod": 45,
+        "id_categoria": 11,
+        "nombre": "Té verde Ginseng y Jengibre",
+        "ingredientes": "Té Sencha, citronela, ginseng, jengibre y pétalos de aciano.",
+        "precio_gramo": 0.077,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-verde-ginseng-y-jengibre.jpg"
+    },
+    {
+        "id_prod": 46,
+        "id_categoria": 11,
+        "nombre": "Té verde Jengibre y limón BIO",
+        "ingredientes": "Té Sencha, limón, citronela y jengibre",
+        "precio_gramo": 0.078,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-verde-jengibre-y-limon-bio.jpg"
+    },
+    {
+        "id_prod": 47,
+        "id_categoria": 11,
+        "nombre": "Té verde Limón exótico BIO",
+        "ingredientes": "Té Sencha, Pai Mu Tan, naranja, citronela, banana, mango y pétalos de caléndula.",
+        "precio_gramo": 0.08,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-verde-limon-exotico-bio.jpg"
+    },
+    {
+        "id_prod": 48,
+        "id_categoria": 11,
+        "nombre": "Té verde Mango y maracuyá BIO",
+        "ingredientes": "Té Sencha, cúrcuma, papaya, jengibre azucarado, mango, maracuyá, kiwi y espirulina.",
+        "precio_gramo": 0.081,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-verde-mango-y-maracuya-bio.jpg"
+    },
+    {
+        "id_prod": 49,
+        "id_categoria": 11,
+        "nombre": "Té verde Manzana al horno",
+        "ingredientes": "Té Sencha, manzana, pasas, almendra, pétalos de rosa.",
+        "precio_gramo": 0.076,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-verde-manzana-al-horno.jpg"
+    },
+    {
+        "id_prod": 50,
+        "id_categoria": 11,
+        "nombre": "Té verde Marroquí BIO",
+        "ingredientes": "Té Gunpowder y menta piperita.",
+        "precio_gramo": 0.08,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-verde-marroqui-bio.jpg"
+    },
+    {
+        "id_prod": 51,
+        "id_categoria": 11,
+        "nombre": "Té verde Navidad",
+        "ingredientes": "Té Sencha, manzana, naranja, almendra, pétalos de rosa, clavo, canela, vainilla.",
+        "precio_gramo": 0.076,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-verde-de-navidad.jpg"
+    },
+    {
+        "id_prod": 52,
+        "id_categoria": 11,
+        "nombre": "Té verde Pakistaní BIO",
+        "ingredientes": "Té Sencha, canela, clavo, cardamomo y vainilla.",
+        "precio_gramo": 0.079,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-verde-pakistani.jpg"
+    },
+    {
+        "id_prod": 53,
+        "id_categoria": 11,
+        "nombre": "Té verde Plátano, fresa y manzana BIO",
+        "ingredientes": "Té Sencha, plátano, fresa, manzana y flores de caléndula.",
+        "precio_gramo": 0.076,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-verde-platano-manzana-y-fresa-bio.jpg",
+        "oferta": false,
+        "precio_gramo_oferta": 0.072
+    },
+    {
+        "id_prod": 54,
+        "id_categoria": 11,
+        "nombre": "Té verde Sueño de Primavera",
+        "ingredientes": "Té Sencha, naranja, mango, uchuva (uvilla), pétalos de rosa, de girasol y de aciano.",
+        "precio_gramo": 0.076,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-verde-sueno-de-primavera.jpg",
+        "oferta": false,
+        "precio_gramo_oferta": 0.072
+    },
+    {
+        "id_prod": 55,
+        "id_categoria": 11,
+        "nombre": "Té verde Vainilla",
+        "ingredientes": "Té Sencha, vainilla bourbon",
+        "precio_gramo": 0.076,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-verde-vainilla.jpg"
+    },
+    {
+        "id_prod": 56,
+        "id_categoria": 17,
+        "nombre": "Té negro Canela",
+        "ingredientes": "Té Ceylon con trozos de canela",
+        "precio_gramo": 0.075,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-negro-canela.jpg"
+    },
+    {
+        "id_prod": 57,
+        "id_categoria": 17,
+        "nombre": "Té negro Caramelo",
+        "ingredientes": "Té Ceylon, trozos de caramelo y aroma",
+        "precio_gramo": 0.075,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-negro-caramelo.jpg"
+    },
+    {
+        "id_prod": 58,
+        "id_categoria": 17,
+        "nombre": "Té negro Chai de la mañana",
+        "ingredientes": "Té Assam broken, canela, jengibre, pimienta negra, pimienta rosa, clavo, cardamomo y nuez moscada molida.",
+        "precio_gramo": 0.077,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-negro-chai-de-la-manana.jpg"
+    },
+    {
+        "id_prod": 59,
+        "id_categoria": 17,
+        "nombre": "Té negro Chocolate irlandés",
+        "ingredientes": "Té negro China, té Ceylon, chocolate, semillas y cáscaras de cacao",
+        "precio_gramo": 0.076,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-negro-chocolate-irlandes.jpg"
+    },
+    {
+        "id_prod": 60,
+        "id_categoria": 17,
+        "nombre": "Té negro Chocolate y canela BIO",
+        "ingredientes": "Té Assam y Southindia, canela, jengibre azucarado, cao, raiz de achicoria, caramelo, pétalos de aciano.",
+        "precio_gramo": 0.081,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-negro-choco-canela-bio.jpg"
+    },
+    {
+        "id_prod": 61,
+        "id_categoria": 17,
+        "nombre": "Té negro Coco",
+        "ingredientes": "Té Ceylon y chips de coco(coco,miel)",
+        "precio_gramo": 0.077,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-negro-coco.jpg"
+    },
+    {
+        "id_prod": 62,
+        "id_categoria": 17,
+        "nombre": "Té negro Earl Grey",
+        "ingredientes": "Té Assam, aroma de bergamota.",
+        "precio_gramo": 0.075,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-negro-earl-grey.jpg"
+    },
+    {
+        "id_prod": 63,
+        "id_categoria": 17,
+        "nombre": "Té negro Frutas del bosque",
+        "ingredientes": "Té Ceylon, bayas de saúco, fresa, frambuesa, moras y grosella.",
+        "precio_gramo": 0.076,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-negro-frutas-del-bosque.jpg"
+    },
+    {
+        "id_prod": 64,
+        "id_categoria": 17,
+        "nombre": "Té negro Lady grey",
+        "ingredientes": "Té Ceylon, lima, naranja, aroma de bergamota y pétalos de aciano.",
+        "precio_gramo": 0.077,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-negro-lady-grey.jpg"
+    },
+    {
+        "id_prod": 65,
+        "id_categoria": 17,
+        "nombre": "Té negro Mango y vainilla (Samba Pa)",
+        "ingredientes": "Té Ceylon, té  verde Sencha, mango, caléndula, aciano, cártamo i vainilla bourbon.",
+        "precio_gramo": 0.077,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-negro-mango-y-vainilla.jpg"
+    },
+    {
+        "id_prod": 66,
+        "id_categoria": 17,
+        "nombre": "Té negro Mazapán",
+        "ingredientes": "Té negro, almendras picadas y aroma.",
+        "precio_gramo": 0.075,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-negro-mazapan.jpg"
+    },
+    {
+        "id_prod": 67,
+        "id_categoria": 17,
+        "nombre": "Té negro Naranja dulce",
+        "ingredientes": "Té de Ceilán, trozos de naranja y pétalos de cártamo",
+        "precio_gramo": 0.075,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-negro-naranja-dulce.jpg"
+    },
+    {
+        "id_prod": 68,
+        "id_categoria": 17,
+        "nombre": "Té negro Naranja y chocolate",
+        "ingredientes": "Té de Ceilán, trozos de naranja, chocolate y cáscara de cacao.",
+        "precio_gramo": 0.077,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-negro-naranja-y-chocolate.jpg"
+    },
+    {
+        "id_prod": 69,
+        "id_categoria": 17,
+        "nombre": "Té negro Navidad",
+        "ingredientes": "Té Ceylon, manzana, almendra, naranja, clavo, vainilla, canela y pétalos de rosa.",
+        "precio_gramo": 0.076,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-negro-de-navidad.jpg"
+    },
+    {
+        "id_prod": 70,
+        "id_categoria": 17,
+        "nombre": "Té negro pakistaní",
+        "ingredientes": "Té Ceylon, canela, clavo, cardamomo y vainilla.",
+        "precio_gramo": 0.076,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-negro-pakistani.jpg"
+    },
+    {
+        "id_prod": 71,
+        "id_categoria": 17,
+        "nombre": "Té negro pan de especias",
+        "ingredientes": "Té Ceylon, té verde Sencha, naranja, semillas de cacao, canela, anís estrellado, clavo, vainilla, cilantro, cardamomo, nuez moscada, hinojo molido y comino.",
+        "precio_gramo": 0.076,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-negro-pan-de-especias.jpg"
+    },
+    {
+        "id_prod": 72,
+        "id_categoria": 17,
+        "nombre": "Té negro Sol de Andalucia BIO",
+        "ingredientes": "Té Ceylon, pétalos de caléndula, de malva, de jazmín y de rosa.",
+        "precio_gramo": 0.077,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-negro-sol-de-andalucia-bio.jpg"
+    },
+    {
+        "id_prod": 73,
+        "id_categoria": 17,
+        "nombre": "Té negro Sueño de otoño",
+        "ingredientes": "Té Ceylon, manzana, naranja y canela.",
+        "precio_gramo": 0.075,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-negro-sueno-de-otono.jpg"
+    },
+    {
+        "id_prod": 74,
+        "id_categoria": 17,
+        "nombre": "Té negro Sweet Chai BIO",
+        "ingredientes": "Té Assam, canela, jengibre, hinojo, anís, cardamomo molido y clavo.",
+        "precio_gramo": 0.078,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-negro-sweet-chai-bio.jpg"
+    },
+    {
+        "id_prod": 75,
+        "id_categoria": 17,
+        "nombre": "Té nergo Vainilla",
+        "ingredientes": "Té Ceylon, trozos de vainilla bourbon.",
+        "precio_gramo": 0.076,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-negro-vainilla.jpg"
+    },
+    {
+        "id_prod": 76,
+        "id_categoria": 15,
+        "nombre": "Pu erh brisa de verano",
+        "ingredientes": "Té Pu erh, té verde Sencha y Jazmín (China), escaramujo, manzana, fresa, kiwi, uchuva.",
+        "precio_gramo": 0.086,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-pu-erh-brisa-de-verano.jpg"
+    },
+    {
+        "id_prod": 77,
+        "id_categoria": 15,
+        "nombre": "Pu erh Chocolate",
+        "ingredientes": "Té Pu erh, cacao tostado  y chocolate.",
+        "precio_gramo": 0.085,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-pu-erh-chocolate.jpg"
+    },
+    {
+        "id_prod": 78,
+        "id_categoria": 15,
+        "nombre": "Pu erh Explosión de frutas vitamina C",
+        "ingredientes": "Té Pu Erh, té verde Sencha, bayas de saúco, fresa, kiwi, frambuesas, moras y pétalos de aciano",
+        "precio_gramo": 0.084,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-pu-erh-explosion-de-frutas-vitamina-c.jpg"
+    },
+    {
+        "id_prod": 79,
+        "id_categoria": 15,
+        "nombre": "Pu erh mango y maracuyá",
+        "ingredientes": "Té Pu Erh, papaya, mango, pétalos de caléndula y de aciano y pasionaria.",
+        "precio_gramo": 0.086,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-pu-erh-mango-y-maracuya.jpg"
+    },
+    {
+        "id_prod": 80,
+        "id_categoria": 15,
+        "nombre": "Pu erh Moras y bambú",
+        "ingredientes": "Té Pu Erh, moras, brotes de bambú, caléndula y aroma",
+        "precio_gramo": 0.085,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-pu-erh-moras-y-bambu.jpg"
+    },
+    {
+        "id_prod": 81,
+        "id_categoria": 15,
+        "nombre": "Pu erh navideño",
+        "ingredientes": "Té Pu Erh, manzana, naranja, clavo, cardamomo y canela.",
+        "precio_gramo": 0.086,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-pu-erh-navideno.jpg"
+    },
+    {
+        "id_prod": 82,
+        "id_categoria": 15,
+        "nombre": "Pu erh pakistaní",
+        "ingredientes": "Té Pu Erh, canela, clavo, cardamomo y vainilla.",
+        "precio_gramo": 0.086,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-pu-erh-pakistani.jpg"
+    },
+    {
+        "id_prod": 83,
+        "id_categoria": 15,
+        "nombre": "Pu erh pan de especias",
+        "ingredientes": "Té Pu Erh, flor de canela, cacao, anís estrellado, almendra, clavo, pimienta rosa y aroma",
+        "precio_gramo": 0.087,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-pu-erh-pan-de-especias.jpg"
+    },
+    {
+        "id_prod": 84,
+        "id_categoria": 15,
+        "nombre": "Pu erh passión turca",
+        "ingredientes": "Té Pu Erh, canela, manzana y naranja.",
+        "precio_gramo": 0.085,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-pu-erh-pasion-turca.jpg"
+    },
+    {
+        "id_prod": 85,
+        "id_categoria": 15,
+        "nombre": "Pu erh Pomelo y naranja",
+        "ingredientes": "Té Pu erh, papaya, naranja y pétalos de caléndula. ",
+        "precio_gramo": 0.085,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-pu-erh-pomelo-y-naranja.jpg"
+    },
+    {
+        "id_prod": 86,
+        "id_categoria": 15,
+        "nombre": "Pu erh Vainilla",
+        "ingredientes": "Pu erh, vainilla bourbon",
+        "precio_gramo": 0.087,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-pu-erh-vainilla.jpg"
+    },
+    {
+        "id_prod": 87,
+        "id_categoria": 9,
+        "nombre": "Té blanco Exótico BIO",
+        "ingredientes": "Té Pai Mu Tan, té verde Sencha, piña, albaricoque, piel de naranja y pétalos de caléndula.",
+        "precio_gramo": 0.111,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-blanco-exotico-bio.jpg"
+    },
+    {
+        "id_prod": 88,
+        "id_categoria": 9,
+        "nombre": "Té blanco Frambuesas y jengibre BIO",
+        "ingredientes": "Té Pai Mu Tan, té verde Darjeeling OP, té verde Chun Mee, jengibre, frambuesa, pétalos de aciano rojo.",
+        "precio_gramo": 0.111,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-blanco-frambuesas-y-jengibre-bio.jpg"
+    },
+    {
+        "id_prod": 89,
+        "id_categoria": 9,
+        "nombre": "Té blanco Fresa intensa",
+        "ingredientes": "Té Pai Mu Tan, té verde Sencha, té Oolong, brevas, fresa y flores de malva.",
+        "precio_gramo": 0.106,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-blanco-fresa-intensa.jpg"
+    },
+    {
+        "id_prod": 90,
+        "id_categoria": 9,
+        "nombre": "Té blanco Naranja y especias",
+        "ingredientes": "Té Pai mu tan, mezcla de tés verdes (Sencha, Darjeeling, Lung Ching, Gunpowder, Jazmín China), coco, jengibre, clavo, cardamomo, cártamo, anís estrellado, pimienta rosa.",
+        "precio_gramo": 0.11,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-blanco-naranja-y-especias.jpg"
+    },
+    {
+        "id_prod": 91,
+        "id_categoria": 23,
+        "nombre": "Rooibos almendra garrapiñada",
+        "ingredientes": "Rooibos, sémola de almendras, corazones de chocolate blanco, almendra tostada y aroma.",
+        "precio_gramo": 0.075,
+        "imagen": "/assets/img/img-productos/infusiones-a-granel/rooibos-almendra-garrapinada.jpg"
+    },
+    {
+        "id_prod": 92,
+        "id_categoria": 23,
+        "nombre": "Rooibos Beso de chocolate",
+        "ingredientes": "Rooibos, cáscara y grano de cacao, piel de naranja, estrellas de chocolate, canela, jatoba, copos de frambuesa, madera de sándalo, remolacha y aroma.",
+        "precio_gramo": 0.074,
+        "imagen": "/assets/img/img-productos/infusiones-a-granel/rooibos-beso-de-chocolate.jpg"
+    },
+    {
+        "id_prod": 93,
+        "id_categoria": 23,
+        "nombre": "Rooibos Buen humor",
+        "ingredientes": "Rooibos, pasas, piña, papaya, pétalos de girasol y vainilla.",
+        "precio_gramo": 0.075,
+        "imagen": "/assets/img/img-productos/infusiones-a-granel/rooibos-buen-humor.jpg"
+    },
+    {
+        "id_prod": 94,
+        "id_categoria": 23,
+        "nombre": "Rooibos Cacao, avellana y nougat",
+        "ingredientes": "Rooibos, honeybush,  chocolate, gotas de caramelo y chocolate, almendras, praliné i semillas de chía.",
+        "precio_gramo": 0.075,
+        "imagen": "/assets/img/img-productos/infusiones-a-granel/rooibos-cacao-nougat-y-avellana.jpg"
+    },
+    {
+        "id_prod": 95,
+        "id_categoria": 23,
+        "nombre": "Rooibos Canela",
+        "ingredientes": "Rooibos, canela y flor de granado",
+        "precio_gramo": 0.075,
+        "imagen": "/assets/img/img-productos/infusiones-a-granel/rooibos-canela.jpg"
+    },
+    {
+        "id_prod": 96,
+        "id_categoria": 23,
+        "nombre": "Rooibos Caramelo",
+        "ingredientes": "Rooibos, trozos de caramelo y nueces de cola.",
+        "precio_gramo": 0.074,
+        "imagen": "/assets/img/img-productos/infusiones-a-granel/rooibos-caramelo.jpg"
+    },
+    {
+        "id_prod": 97,
+        "id_categoria": 23,
+        "nombre": "Rooibos Chai",
+        "ingredientes": "Rooibos, jengibre, canela, menta, cardamomo, regaliz i vainilla",
+        "precio_gramo": 0.074,
+        "imagen": "/assets/img/img-productos/infusiones-a-granel/rooibos-chai.jpg"
+    },
+    {
+        "id_prod": 98,
+        "id_categoria": 23,
+        "nombre": "Rooibos Chocolate y coco",
+        "ingredientes": "Rooibos con chips de coco, cacao y trozos de chocolate",
+        "precio_gramo": 0.074,
+        "imagen": "/assets/img/img-productos/infusiones-a-granel/rooibos-chocolate-y-coco.jpg"
+    },
+    {
+        "id_prod": 99,
+        "id_categoria": 23,
+        "nombre": "Rooibos Frutas del bosque BIO",
+        "ingredientes": "Rooibos, bayas de saúco, fresa, grosella negras y rojas, moras y pétalos de aciano.",
+        "precio_gramo": 0.078,
+        "imagen": "/assets/img/img-productos/infusiones-a-granel/rooibos-frutas-del-bosque-bio.jpg"
+    },
+    {
+        "id_prod": 100,
+        "id_categoria": 23,
+        "nombre": "Rooibos jengibre y limón (BIO)",
+        "ingredientes": "Rooibos, jengibre y citronela.",
+        "precio_gramo": 0.077,
+        "imagen": "/assets/img/img-productos/infusiones-a-granel/rooibos-jengibre-y-limon-bio.jpg"
+    },
+    {
+        "id_prod": 101,
+        "id_categoria": 23,
+        "nombre": "Rooibos jengibre, arándanos y naranja BIO",
+        "ingredientes": "Rooibos, arándanos, jengibre, naranja y caléndula.",
+        "precio_gramo": 0.077,
+        "imagen": "/assets/img/img-productos/infusiones-a-granel/rooibos-jengibre-arandanos-y-naranja-bio.jpg"
+    },
+    {
+        "id_prod": 102,
+        "id_categoria": 23,
+        "nombre": "Rooibos Manzana, almendra y canela",
+        "ingredientes": "Rooibos, manzana, almendra, canela y flores de cártamo.",
+        "precio_gramo": 0.075,
+        "imagen": "/assets/img/img-productos/infusiones-a-granel/rooibos-manzana-almendra-y-canela.jpg"
+    },
+    {
+        "id_prod": 103,
+        "id_categoria": 23,
+        "nombre": "Rooibos mazapán",
+        "ingredientes": "Rooibos, piña azucarada, almendra picada y rallada, azúcar candi blanco y aroma.",
+        "precio_gramo": 0.073,
+        "imagen": "/assets/img/img-productos/infusiones-a-granel/rooibos-mazapan.jpg"
+    },
+    {
+        "id_prod": 104,
+        "id_categoria": 23,
+        "nombre": "Rooibos menta y limón",
+        "ingredientes": "Rooibos, Honeybush, limón, menta, citronela, pétalos de girasol, flores de osmanto, hojas de buchu, granulado de limón.",
+        "precio_gramo": 0.074,
+        "imagen": "/assets/img/img-productos/infusiones-a-granel/rooibos-menta-y-limon.jpg"
+    },
+    {
+        "id_prod": 105,
+        "id_categoria": 23,
+        "nombre": "Rooibos miel y limón",
+        "ingredientes": "Rooibos, piña, menta, tomillo, cáscaras de naranja y limón, caléndula y azahar.",
+        "precio_gramo": 0.076,
+        "imagen": "/assets/img/img-productos/infusiones-a-granel/rooibos-miel-y-limon.jpg",
+        "oferta": false,
+        "precio_gramo_oferta": 0.072
+    },
+    {
+        "id_prod": 106,
+        "id_categoria": 23,
+        "nombre": "Rooibos Naranja BIO",
+        "ingredientes": "Rooibos con  naranja.",
+        "precio_gramo": 0.077,
+        "imagen": "/assets/img/img-productos/infusiones-a-granel/rooibos-naranja-bio.jpg"
+    },
+    {
+        "id_prod": 107,
+        "id_categoria": 23,
+        "nombre": "Rooibos Canela y naranja ",
+        "ingredientes": "Rooibos, canela, manzana, naranja, almendra, pètalos de rosa y clavo. ",
+        "precio_gramo": 0.075,
+        "imagen": "/assets/img/img-productos/infusiones-a-granel/rooibos-canela-y-naranja.jpg"
+    },
+    {
+        "id_prod": 108,
+        "id_categoria": 23,
+        "nombre": "Rooibos Naranja y chocolate",
+        "ingredientes": "Rooibos, semillas y cáscara de cacao, trozos de chocolate, naranja",
+        "precio_gramo": 0.073,
+        "imagen": "/assets/img/img-productos/infusiones-a-granel/rooibos-naranja-y-chocolate.jpg"
+    },
+    {
+        "id_prod": 109,
+        "id_categoria": 23,
+        "nombre": "Rooibos Sweet Chai",
+        "ingredientes": "Rooibos, canela, jengibre, hinojo, anís, clavo y cardamomo.",
+        "precio_gramo": 0.074,
+        "imagen": "/assets/img/img-productos/infusiones-a-granel/rooibos-sweet-chai.jpg"
+    },
+    {
+        "id_prod": 110,
+        "id_categoria": 23,
+        "nombre": "Rooibos Vainilla",
+        "ingredientes": "Rooibos con vaiinilla bourbon.",
+        "precio_gramo": 0.078,
+        "imagen": "/assets/img/img-productos/infusiones-a-granel/rooibos-vainilla.jpg"
+    },
+    {
+        "id_prod": 111,
+        "id_categoria": 23,
+        "nombre": "Rooibos verde jengibre y piña",
+        "ingredientes": "Rooibos verde, piña azucarada, jengibre seco y escarchado, aroma y flores de girasol.",
+        "precio_gramo": 0.073,
+        "imagen": "/assets/img/img-productos/infusiones-a-granel/rooibos-verde-jengibre-y-pina.jpg",
+        "oferta": false,
+        "precio_gramo_oferta": 0.072
+    },
+    {
+        "id_prod": 112,
+        "id_categoria": 23,
+        "nombre": "Rooibos verde melocotón y albaricoque",
+        "ingredientes": "Rooibos verde, melocotón, papaya y flores de girasol.",
+        "precio_gramo": 0.072,
+        "imagen": "/assets/img/img-productos/infusiones-a-granel/rooibos-verde-melocoton-y-albaricoque.jpg",
+        "oferta": false,
+        "precio_gramo_oferta": 0.072
+    },
+    {
+        "id_prod": 113,
+        "id_categoria": 23,
+        "nombre": "Rooibos BIO (Suráfrica)",
+        "ingredientes": "",
+        "precio_gramo": 0.077,
+        "imagen": "/assets/img/img-productos/infusiones-a-granel/rooibos-puro-bio.jpg"
+    },
+    {
+        "id_prod": 114,
+        "id_categoria": 20,
+        "nombre": "Infusión Ayurveda Pitta BIO",
+        "ingredientes": "Citronela, menta piperita, hojas de mora, regaliz, cardamomo, pétalos de rosa y de aciano",
+        "precio_gramo": 0.076,
+        "imagen": "/assets/img/img-productos/infusiones-a-granel/infusion-ayurveda-pita-bio.jpg",
+        "oferta": false,
+        "precio_gramo_oferta": 0
+    },
+    {
+        "id_prod": 115,
+        "id_categoria": 20,
+        "nombre": "Infusión Brisa mediterránea",
+        "ingredientes": "Manzana, piña, papaya, limón, hierba luisa, arándanos, flores de cártamo, acerola y pétalos de asteraceae.",
+        "precio_gramo": 0.073,
+        "imagen": "/assets/img/img-productos/infusiones-a-granel/infusion-brisa-mediterrania.jpg",
+        "oferta": false,
+        "precio_gramo_oferta": 0
+    },
+    {
+        "id_prod": 116,
+        "id_categoria": 20,
+        "nombre": "Infusión cereza y banana",
+        "ingredientes": "Hibisco, banana, cereza, pasas, manzana, escaramujo.",
+        "precio_gramo": 0.07,
+        "imagen": "/assets/img/img-productos/infusiones-a-granel/infusion-cereza-y-banana.jpg",
+        "oferta": false,
+        "precio_gramo_oferta": 0
+    },
+    {
+        "id_prod": 117,
+        "id_categoria": 20,
+        "nombre": "Infusión Choco dreams BIO",
+        "ingredientes": "Cacao, pasas, caramelo y chocolate.",
+        "precio_gramo": 0.075,
+        "imagen": "/assets/img/img-productos/infusiones-a-granel/infusion-choco-dream-bio.jpg"
+    },
+    {
+        "id_prod": 118,
+        "id_categoria": 20,
+        "nombre": "Infusión Frambuesa , lima y Goji",
+        "ingredientes": "Membrillo, manzana, coco, hierbalimón, hibisco, piel de limón, frambuesa, bayas de goji, aciano.",
+        "precio_gramo": 0.072,
+        "imagen": "/assets/img/img-productos/infusiones-a-granel/infusion-frambuesa-lima-y-goji.jpg",
+        "oferta": false,
+        "precio_gramo_oferta": 0
+    },
+    {
+        "id_prod": 119,
+        "id_categoria": 20,
+        "nombre": "Infusión frutas silvestres",
+        "ingredientes": "Bayas de saúco, hibisco, rosa y grosellas.",
+        "precio_gramo": 0.071,
+        "imagen": "/assets/img/img-productos/infusiones-a-granel/infusion-frutas-silvestres.jpg",
+        "oferta": false,
+        "precio_gramo_oferta": 0
+    },
+    {
+        "id_prod": 120,
+        "id_categoria": 20,
+        "nombre": "Infusión Indian Yogi Ayurveda",
+        "ingredientes": "Canela, jengibre, clavo, pimienta rosa y cardamomo.",
+        "precio_gramo": 0.073,
+        "imagen": "/assets/img/img-productos/infusiones-a-granel/infusion-indian-yogi-ayurveda.jpg"
+    },
+    {
+        "id_prod": 121,
+        "id_categoria": 20,
+        "nombre": "Infusión jengibre y mandarina",
+        "ingredientes": "Manzana tostada, pera tostada, dátil, higo, naranja, jengibre escarchado, granulado de mandarinas y naranja.",
+        "precio_gramo": 0.074,
+        "imagen": "/assets/img/img-productos/infusiones-a-granel/infusion-jengibre-y-mandarina.jpg",
+        "oferta": false,
+        "precio_gramo_oferta": 0
+    },
+    {
+        "id_prod": 122,
+        "id_categoria": 20,
+        "nombre": "Infusión Mango y menta",
+        "ingredientes": "Manzana, piña, papaya, bayas de Goji, citronela, menta, capullos de rosa y vitamina C. ",
+        "precio_gramo": 0.072,
+        "imagen": "/assets/img/img-productos/infusiones-a-granel/infusion-mango-y-menta.jpg",
+        "oferta": false,
+        "precio_gramo_oferta": 0.072
+    },
+    {
+        "id_prod": 123,
+        "id_categoria": 20,
+        "nombre": "Infusión Manzana Splash",
+        "ingredientes": "Manzana de diferentes variedades (ácida, dulce, tostada), citronela, raíz de regaliz, hibisco blanco, flor de granado y de aciano rojo, menta y vitamina C.",
+        "precio_gramo": 0.073,
+        "imagen": "/assets/img/img-productos/infusiones-a-granel/infusion-manzana-splash.jpg",
+        "oferta": false,
+        "precio_gramo_oferta": 0.072
+    },
+    {
+        "id_prod": 124,
+        "id_categoria": 20,
+        "nombre": "Infusión Piña colada",
+        "ingredientes": "Manzana, hibisco, escaramujo, piña, coco y piel de naranja.",
+        "precio_gramo": 0.07,
+        "imagen": "/assets/img/img-productos/infusiones-a-granel/infusion-pina-colada.jpg",
+        "oferta": false,
+        "precio_gramo_oferta": 0.072
+    },
+    {
+        "id_prod": 125,
+        "id_categoria": 20,
+        "nombre": "Infusión Piña Índia",
+        "ingredientes": "Dátiles, piña, pasas, canela, coco, cúrcuma, citronela, cardamomo.",
+        "precio_gramo": 0.071,
+        "imagen": "/assets/img/img-productos/infusiones-a-granel/infusion-pina-india.jpg",
+        "oferta": false,
+        "precio_gramo_oferta": 0.072
+    },
+    {
+        "id_prod": 126,
+        "id_categoria": 20,
+        "nombre": "Infusión Piña y melocotón",
+        "ingredientes": "Manzana, piña, papaya, melocotón, zanahoria,  granulado de mango y de maracuyá.",
+        "precio_gramo": 0.07,
+        "imagen": "/assets/img/img-productos/infusiones-a-granel/infusion-pina-y-melocoton.jpg",
+        "oferta": false,
+        "precio_gramo_oferta": 0.072
+    },
+    {
+        "id_prod": 127,
+        "id_categoria": 22,
+        "nombre": "Mezcla Adelgazante",
+        "ingredientes": "Marrubio, sen hoja, fucus, cola de caballo, malva y menta. ",
+        "precio_gramo": 0.065,
+        "imagen": "/assets/img/img-productos/infusiones-a-granel/mezcla-adelgazante.jpg"
+    },
+    {
+        "id_prod": 128,
+        "id_categoria": 22,
+        "nombre": "Mezcla Antioxidante",
+        "ingredientes": "Gingko, romero, tomillo, hinojo, rooibos y té verde sin teína. ",
+        "precio_gramo": 0.065,
+        "imagen": "/assets/img/img-productos/infusiones-a-granel/mezcla-antioxidante.jpg"
+    },
+    {
+        "id_prod": 129,
+        "id_categoria": 22,
+        "nombre": "Mezcla Defensas",
+        "ingredientes": "Hibisco, tomillo, caléndula, verbena, melisa y jengibre.",
+        "precio_gramo": 0.065,
+        "imagen": "/assets/img/img-productos/infusiones-a-granel/mezcla-defensas.jpg"
+    },
+    {
+        "id_prod": 130,
+        "id_categoria": 22,
+        "nombre": "Mezcla Digestiva",
+        "ingredientes": "Manzanilla, melisa, hinojo, regaliz, marialluïssa y anís verde. ",
+        "precio_gramo": 0.065,
+        "imagen": "/assets/img/img-productos/infusiones-a-granel/mezcla-digestiva.jpg"
+    },
+    {
+        "id_prod": 131,
+        "id_categoria": 22,
+        "nombre": "Mezcla diurética-depurativa",
+        "ingredientes": "Cola de caballo, grama, bayas de enebro, abedul, maíz, arenaria y gayuba. ",
+        "precio_gramo": 0.065,
+        "imagen": "/assets/img/img-productos/infusiones-a-granel/mezcla-diuretica-depurativa.jpg"
+    },
+    {
+        "id_prod": 132,
+        "id_categoria": 22,
+        "nombre": "Mezcla Embarazo",
+        "ingredientes": "Hojas de frambueso,  jengibre, azahar, til.la, hojas de saúco y manzanilla. ",
+        "precio_gramo": 0.075,
+        "imagen": "/assets/img/img-productos/infusiones-a-granel/mezcla-embarazo.jpg"
+    },
+    {
+        "id_prod": 133,
+        "id_categoria": 22,
+        "nombre": "Mezcla Felices Sueños",
+        "ingredientes": "Amapola, sálvia,  melisa, pasionaria/pasiflora, azahar y tila. ",
+        "precio_gramo": 0.084,
+        "imagen": "/assets/img/img-productos/infusiones-a-granel/mezcla-felices-suenos.jpg"
+    },
+    {
+        "id_prod": 134,
+        "id_categoria": 22,
+        "nombre": "Mezcla Gases",
+        "ingredientes": "Anís verde, hinojo, anís estrellado y cilantro. ",
+        "precio_gramo": 0.065,
+        "imagen": "/assets/img/img-productos/infusiones-a-granel/mezcla-gases.jpg"
+    },
+    {
+        "id_prod": 135,
+        "id_categoria": 22,
+        "nombre": "Mezcla Hepática",
+        "ingredientes": "Boldo, cardo mariano, menta y frángula. ",
+        "precio_gramo": 0.065,
+        "imagen": "/assets/img/img-productos/infusiones-a-granel/mezcla-hepatica.jpg"
+    },
+    {
+        "id_prod": 136,
+        "id_categoria": 22,
+        "nombre": "Mezcla Laxante",
+        "ingredientes": "Sen folículos y hoja, frángula",
+        "precio_gramo": 0.065,
+        "imagen": "/assets/img/img-productos/infusiones-a-granel/mezcla-laxante.jpg"
+    },
+    {
+        "id_prod": 137,
+        "id_categoria": 22,
+        "nombre": "Mezcla menstrual",
+        "ingredientes": "Anís verde, equinácea, romero, valeriana, ortiga verde y hojas de frambuesa",
+        "precio_gramo": 0.065,
+        "imagen": "/assets/img/img-productos/infusiones-a-granel/mezcla-menstrual.jpg"
+    },
+    {
+        "id_prod": 138,
+        "id_categoria": 22,
+        "nombre": "Mezcla Presión alta",
+        "ingredientes": "Arce blanco, olivo, ortosifón y pasionaria.",
+        "precio_gramo": 0.065,
+        "imagen": "/assets/img/img-productos/infusiones-a-granel/mezcla-presion-alta.jpg"
+    },
+    {
+        "id_prod": 139,
+        "id_categoria": 22,
+        "nombre": "Mezcla Relajante (no somnífera)",
+        "ingredientes": "Salvia, melisa, valeriana, menta, azahar y tila. ",
+        "precio_gramo": 0.065,
+        "imagen": "/assets/img/img-productos/infusiones-a-granel/mezcla-relajante.jpg"
+    },
+    {
+        "id_prod": 140,
+        "id_categoria": 22,
+        "nombre": "Mezcla Resfriado",
+        "ingredientes": "Eucalipto, tomillo, equinácea, regaliz, menta, jengibre y abedul.",
+        "precio_gramo": 0.065,
+        "imagen": "/assets/img/img-productos/infusiones-a-granel/mezcla-resfriado.jpg"
+    },
+    {
+        "id_prod": 141,
+        "id_categoria": 22,
+        "nombre": "Mezcla revitalizante (Anemia)",
+        "ingredientes": "Cola de caballo, diente de león, ortiga verde, romero y tomillo. ",
+        "precio_gramo": 0.065,
+        "imagen": "/assets/img/img-productos/infusiones-a-granel/mezcla-revitalizante-anemia.jpg"
+    },
+    {
+        "id_prod": 142,
+        "id_categoria": 21,
+        "nombre": "Anís verde",
+        "ingredientes": "",
+        "precio_gramo": 0.057,
+        "imagen": "/assets/img/img-productos/infusiones-a-granel/anis-verde.jpg"
+    },
+    {
+        "id_prod": 143,
+        "id_categoria": 21,
+        "nombre": "Azahar",
+        "ingredientes": "",
+        "precio_gramo": 0.095,
+        "imagen": "/assets/img/img-productos/infusiones-a-granel/azahar.jpg"
+    },
+    {
+        "id_prod": 144,
+        "id_categoria": 21,
+        "nombre": "Caléndula",
+        "ingredientes": "",
+        "precio_gramo": 0.062,
+        "imagen": "/assets/img/img-productos/infusiones-a-granel/calendula.jpg"
+    },
+    {
+        "id_prod": 145,
+        "id_categoria": 21,
+        "nombre": "Cola de caballo",
+        "ingredientes": "",
+        "precio_gramo": 0.055,
+        "imagen": "/assets/img/img-productos/infusiones-a-granel/cola-de-caballo.jpg"
+    },
+    {
+        "id_prod": 146,
+        "id_categoria": 21,
+        "nombre": "Diente de león",
+        "ingredientes": "",
+        "precio_gramo": 0.056,
+        "imagen": "/assets/img/img-productos/infusiones-a-granel/diente-de-leon.jpg"
+    },
+    {
+        "id_prod": 147,
+        "id_categoria": 21,
+        "nombre": "Equinácea",
+        "ingredientes": "",
+        "precio_gramo": 0.1,
+        "imagen": "/assets/img/img-productos/infusiones-a-granel/equinacea.jpg"
+    },
+    {
+        "id_prod": 148,
+        "id_categoria": 21,
+        "nombre": "Estévia",
+        "ingredientes": "",
+        "precio_gramo": 0.08,
+        "imagen": "/assets/img/img-productos/infusiones-a-granel/estevia.jpg"
+    },
+    {
+        "id_prod": 149,
+        "id_categoria": 21,
+        "nombre": "Eucaliptus",
+        "ingredientes": "",
+        "precio_gramo": 0.055,
+        "imagen": "/assets/img/img-productos/infusiones-a-granel/eucalipto.jpg"
+    },
+    {
+        "id_prod": 150,
+        "id_categoria": 21,
+        "nombre": "Flor de saúco",
+        "ingredientes": "",
+        "precio_gramo": 0.085,
+        "imagen": "/assets/img/img-productos/infusiones-a-granel/sauco.jpg"
+    },
+    {
+        "id_prod": 151,
+        "id_categoria": 21,
+        "nombre": "Frambueso BIO",
+        "ingredientes": "",
+        "precio_gramo": 0.07,
+        "imagen": "/assets/img/img-productos/infusiones-a-granel/frambueso.jpg"
+    },
+    {
+        "id_prod": 152,
+        "id_categoria": 21,
+        "nombre": "Ginkgo Biloba",
+        "ingredientes": "",
+        "precio_gramo": 0.067,
+        "imagen": "/assets/img/img-productos/infusiones-a-granel/ginkgo.jpg"
+    },
+    {
+        "id_prod": 153,
+        "id_categoria": 21,
+        "nombre": "Hibisco",
+        "ingredientes": "",
+        "precio_gramo": 0.062,
+        "imagen": "/assets/img/img-productos/infusiones-a-granel/hibisco.jpg"
+    },
+    {
+        "id_prod": 154,
+        "id_categoria": 21,
+        "nombre": "Hierbaluisa",
+        "ingredientes": "",
+        "precio_gramo": 0.078,
+        "imagen": "/assets/img/img-productos/infusiones-a-granel/hierbaluisa.jpg"
+    },
+    {
+        "id_prod": 155,
+        "id_categoria": 21,
+        "nombre": "Hinojo",
+        "ingredientes": "",
+        "precio_gramo": 0.027,
+        "imagen": "/assets/img/img-productos/infusiones-a-granel/hinojo.jpg"
+    },
+    {
+        "id_prod": 156,
+        "id_categoria": 21,
+        "nombre": "Jengibre",
+        "ingredientes": "",
+        "precio_gramo": 0.065,
+        "imagen": "/assets/img/img-productos/infusiones-a-granel/jengibre.jpg"
+    },
+    {
+        "id_prod": 157,
+        "id_categoria": 21,
+        "nombre": "Manzanilla",
+        "ingredientes": "",
+        "precio_gramo": 0.067,
+        "imagen": "/assets/img/img-productos/infusiones-a-granel/manzanilla.jpg"
+    },
+    {
+        "id_prod": 158,
+        "id_categoria": 21,
+        "nombre": "Melisa",
+        "ingredientes": "",
+        "precio_gramo": 0.065,
+        "imagen": "/assets/img/img-productos/infusiones-a-granel/melisa.jpg"
+    },
+    {
+        "id_prod": 159,
+        "id_categoria": 21,
+        "nombre": "Menta Piperita",
+        "ingredientes": "",
+        "precio_gramo": 0.062,
+        "imagen": "/assets/img/img-productos/infusiones-a-granel/menta.jpg"
+    },
+    {
+        "id_prod": 160,
+        "id_categoria": 21,
+        "nombre": "Ortiga verde",
+        "ingredientes": "",
+        "precio_gramo": 0.057,
+        "imagen": "/assets/img/img-productos/infusiones-a-granel/ortiga-verde.jpg"
+    },
+    {
+        "id_prod": 161,
+        "id_categoria": 21,
+        "nombre": "Pasiflora",
+        "ingredientes": "",
+        "precio_gramo": 0.07,
+        "imagen": "/assets/img/img-productos/infusiones-a-granel/pasiflora.jpg"
+    },
+    {
+        "id_prod": 162,
+        "id_categoria": 21,
+        "nombre": "Poleo Menta",
+        "ingredientes": "",
+        "precio_gramo": 0.06,
+        "imagen": "/assets/img/img-productos/infusiones-a-granel/poleo.jpg"
+    },
+    {
+        "id_prod": 163,
+        "id_categoria": 21,
+        "nombre": "Regaliz",
+        "ingredientes": "",
+        "precio_gramo": 0.057,
+        "imagen": "/assets/img/img-productos/infusiones-a-granel/regaliz.jpg"
+    },
+    {
+        "id_prod": 164,
+        "id_categoria": 21,
+        "nombre": "Romero",
+        "ingredientes": "",
+        "precio_gramo": 0.055,
+        "imagen": "/assets/img/img-productos/infusiones-a-granel/romero.jpg"
+    },
+    {
+        "id_prod": 165,
+        "id_categoria": 21,
+        "nombre": "Sálvia",
+        "ingredientes": "",
+        "precio_gramo": 0.075,
+        "imagen": "/assets/img/img-productos/infusiones-a-granel/salvia.jpg"
+    },
+    {
+        "id_prod": 166,
+        "id_categoria": 21,
+        "nombre": "Tila",
+        "ingredientes": "",
+        "precio_gramo": 0.09,
+        "imagen": "/assets/img/img-productos/infusiones-a-granel/tila.jpg"
+    },
+    {
+        "id_prod": 167,
+        "id_categoria": 21,
+        "nombre": "Tomillo",
+        "ingredientes": "",
+        "precio_gramo": 0.06,
+        "imagen": "/assets/img/img-productos/infusiones-a-granel/tomillo.jpg"
+    },
+    {
+        "id_prod": 168,
+        "id_categoria": 26,
+        "nombre": "Cacao Banana Panda BIO (125 gramos)",
+        "ingredientes": "(Sabor cereza-plátano). Cacao en polvo, azúcar de flor de coco, plátano en polvo, aroma natural",
+        "precio_gramo": 6.85,
+        "imagen": "/assets/img/img-productos/infusiones-y-te-envasados/cacao-banana-panda-bio.jpg"
+    },
+    {
+        "id_prod": 169,
+        "id_categoria": 26,
+        "nombre": "Cacao Chai Chai Unicorn BIO (125 gramos)",
+        "ingredientes": "Cacao en polvo, guaraná, jengibre molido, cardamomo molido, canela molida, té verde Matcha, clavo molido, raíz de maca.",
+        "precio_gramo": 6.85,
+        "imagen": "/assets/img/img-productos/infusiones-y-te-envasados/cacao-chai-chai-unicorn-bio.jpg"
+    },
+    {
+        "id_prod": 170,
+        "id_categoria": 26,
+        "nombre": "Cacao Minty Monkey BIO (125 gramos)",
+        "ingredientes": "Cacao en polvo, azúcar de flor de coco, guaraná, aroma natural, té verde Matcha. ",
+        "precio_gramo": 6.85,
+        "imagen": "/assets/img/img-productos/infusiones-y-te-envasados/cacao-minty-monkey-bio.jpg"
+    },
+    {
+        "id_prod": 171,
+        "id_categoria": 26,
+        "nombre": "Cacao Shock Shark  BIO (125 gramos)",
+        "ingredientes": "Cacao en polvo (es amargo)",
+        "precio_gramo": 6.85,
+        "imagen": "/assets/img/img-productos/infusiones-y-te-envasados/cacao-chock-shark-bio.jpg"
+    },
+    {
+        "id_prod": 172,
+        "id_categoria": 26,
+        "nombre": "Cacao Vainilla Ice Bear  BIO (125 gramos)",
+        "ingredientes": "Cacao en polvo, azúcar de flor de coco, raíz de maca, aroma natural y vainilla.",
+        "precio_gramo": 6.85,
+        "imagen": "/assets/img/img-productos/infusiones-y-te-envasados/cacao-vanilla-ice-bear-bio.jpg"
+    },
+    {
+        "id_prod": 173,
+        "id_categoria": 26,
+        "nombre": "Cúrcuma Chai BIO (125 gramos)",
+        "ingredientes": "Cúrcuma molida, canela molida, jengibre molido, té verde Matcha, cardamomo molido, nuez moscada, clavo molido. ",
+        "precio_gramo": 6.85,
+        "imagen": "/assets/img/img-productos/infusiones-y-te-envasados/curcuma-chai-bio.jpg"
+    },
+    {
+        "id_prod": 174,
+        "id_categoria": 26,
+        "nombre": "Cúrcuma Naranja y vainilla  BIO (125 gramos)",
+        "ingredientes": "Cúrcuma molida, azúcar de flor de coco, aroma natural, jengibre molido, naranja en polvo, vainilla. ",
+        "precio_gramo": 6.85,
+        "imagen": "/assets/img/img-productos/infusiones-y-te-envasados/curcuma-naranja-bio.jpg"
+    },
+    {
+        "id_prod": 175,
+        "id_categoria": 26,
+        "nombre": "Cúrcuma Vainilla  BIO (125 gramos)",
+        "ingredientes": "Cúrcuma molida,azúcar de flor de coco, aroma natural, jengibre molido, vainilla.",
+        "precio_gramo": 6.85,
+        "imagen": "/assets/img/img-productos/infusiones-y-te-envasados/curcuma-vainilla-bio.jpg"
+    },
+    {
+        "id_prod": 176,
+        "id_categoria": 24,
+        "nombre": "Rooibos Cítricos BIO (Artemis)",
+        "ingredientes": "Caja 20 bolsas (28 g.). Ingredientes: Rooibos, hibisco, limón, naranja y aceites esencial de limón y naranja. Todos los ingredientes provienen de agricultura ecológica. SIN CAFEÍNA.",
+        "precio_gramo": 3.80,
+        "imagen": "/assets/img/img-productos/infusiones-y-te-envasados/artemis-rooibos-citricos-bio.jpg"
+    },
+    {
+        "id_prod": 177,
+        "id_categoria": 24,
+        "nombre": "Rooibos Naranja chai BIO (Artemis)",
+        "ingredientes": "Caja 20 bolsas (28 g.). Ingredientes: Rooibos (33%), canela, jengibre, cardamomo, naranja, hibisco, clavo, esencia de naranja y de limón. Todos los ingredientes provienen de agricultura ecológica. SIN CAFEÍNA.",
+        "precio_gramo": 3.80,
+        "imagen": "/assets/img/img-productos/infusiones-y-te-envasados/artemis-rooibos-naranja-chai-bio.jpg"
+    },
+    {
+        "id_prod": 178,
+        "id_categoria": 24,
+        "nombre": "Rooibos Vainilla BIO (Artemis)",
+        "ingredientes": "Caja 20 bolsas (28 g.). Ingredientes: Rooibos, vainilla y aroma natural de vainilla. Todos los ingredientes provienen de agricultura ecológica. SIN CAFEÍNA.",
+        "precio_gramo": 3.80,
+        "imagen": "/assets/img/img-productos/infusiones-y-te-envasados/artemis-rooibos-vainilla-bio.jpg"
+    },
+    {
+        "id_prod": 179,
+        "id_categoria": 24,
+        "nombre": "Té blanco BIO (Artemis)",
+        "ingredientes": "Caja 20 bolsas (28 g.). Té blanco proveniente de agricultura Ecológica y producido bajo criterios éticos del certificado Fairtrade (www.info.fairtrade.net)",
+        "precio_gramo": 3.80,
+        "imagen": "/assets/img/img-productos/infusiones-y-te-envasados/artemis-te-blanco-bio.jpg"
+    },
+    {
+        "id_prod": 180,
+        "id_categoria": 24,
+        "nombre": "Té negro Earl grey BIO (Artemis)",
+        "ingredientes": "Caja 20 bolsas (28 g.). Ingredientes: Té negro y esencia de bergamota. Todo proveniente de agricultura Ecológica y producido bajo criterios éticos  del certificado Fairtrade (www.info.fairtrade.net)",
+        "precio_gramo": 3.80,
+        "imagen": "/assets/img/img-productos/infusiones-y-te-envasados/artemis-te-negre-earl-grey-bio.jpg"
+    },
+    {
+        "id_prod": 181,
+        "id_categoria": 24,
+        "nombre": "Té negro BIO (Artemis)",
+        "ingredientes": "Caja 20 bolsas (28 g.). Té negro English Breakfast proveniente de agricultura Ecológica y producido bajo criterios éticos del certificado Fairtrade (www.info.fairtrade.net). ",
+        "precio_gramo": 3.80,
+        "imagen": "/assets/img/img-productos/infusiones-y-te-envasados/artemis-te-negro-bio.jpg"
+    },
+    {
+        "id_prod": 182,
+        "id_categoria": 24,
+        "nombre": "Té negro Canela BIO (Artemis)",
+        "ingredientes": "Caja 20 bolsas (28 g.). Ingredientes: Té negro, canela. Todos los ingredientes provienen de agricultura ecológica.",
+        "precio_gramo": 3.80,
+        "imagen": "/assets/img/img-productos/infusiones-y-te-envasados/artemis-te-negro-canela-bio.jpg"
+    },
+    {
+        "id_prod": 183,
+        "id_categoria": 24,
+        "nombre": "Té negro Chai BIO (Artemis)",
+        "ingredientes": "Caja 20 bolsas (28 g.). Ingredientes: Té negro, cardamomo, jengibre, canela y clavo. Todos los ingredientes provienen de agricultura ecológica.",
+        "precio_gramo": 3.80,
+        "imagen": "/assets/img/img-productos/infusiones-y-te-envasados/artemis-te-negro-chai-bio.jpg"
+    },
+    {
+        "id_prod": 184,
+        "id_categoria": 24,
+        "nombre": "Té pu erh BIO (Artemis)",
+        "ingredientes": "Caja 20 bolsas (28 g.). Té pu erh (rojo) proveniente de agricultura ecológica.",
+        "precio_gramo": 3.80,
+        "imagen": "/assets/img/img-productos/infusiones-y-te-envasados/artemis-te-pu-erh-bio.jpg"
+    },
+    {
+        "id_prod": 185,
+        "id_categoria": 24,
+        "nombre": "Té verde Bio (Artemis)",
+        "ingredientes": "Caja 20 bolsas (28 g.). Té verde proveniente de agricultura ecológica. ",
+        "precio_gramo": 3.80,
+        "imagen": "/assets/img/img-productos/infusiones-y-te-envasados/artemis-te-verde-bio.jpg"
+    },
+    {
+        "id_prod": 186,
+        "id_categoria": 24,
+        "nombre": "Té verde Frutas silvestres BIO (Artemis)",
+        "ingredientes": "Caja 20 bolsas (28 g.). Ingredientes: Té verde proveniente de agricultura Ecológica y aroma natural de frutas silvestres.",
+        "precio_gramo": 3.80,
+        "imagen": "/assets/img/img-productos/infusiones-y-te-envasados/artemis-te-verde-frutas-silvestres-bio.jpg"
+    },
+    {
+        "id_prod": 187,
+        "id_categoria": 24,
+        "nombre": "Té verde Jengibre y limón BIO (Artemis)",
+        "ingredientes": "Caja 20 bolsas (28 g.). Ingredientes: Té verde, jengibre, hibisco, piel de limón y aceite esencial de limón. Todos los ingredientes provienen de agricultura ecológica.",
+        "precio_gramo": 3.80,
+        "imagen": "/assets/img/img-productos/infusiones-y-te-envasados/artemis-te-verde-jengibre-y-limon-bio.jpg"
+    },
+    {
+        "id_prod": 188,
+        "id_categoria": 24,
+        "nombre": "Té verde Moruno BIO (Artemis)",
+        "ingredientes": "Caja 20 bolsas (28 g.). Ingredientes: Té verde, menta piperita, hierbabuena y cardamomo. Todos los ingredientes provienen de agricultura ecológica. ",
+        "precio_gramo": 3.80,
+        "imagen": "/assets/img/img-productos/infusiones-y-te-envasados/artemis-te-verde-moruno.jpg"
+    },
+    {
+        "id_prod": 189,
+        "id_categoria": 24,
+        "nombre": "Té verde descafeinado BIO (Artemis)",
+        "ingredientes": "Caja 20 bolsas (28 g.).  Té verde  descafeinado proveniente de agricultura ecológica. SIN CAFEÍNA.",
+        "precio_gramo": 3.80,
+        "imagen": "/assets/img/img-productos/infusiones-y-te-envasados/artemis-te-verde-sin-cafeina.jpg"
+    },
+    {
+        "id_prod": 190,
+        "id_categoria": 24,
+        "nombre": "Infusión Armonia interior BIO (Yogi Tea)",
+        "ingredientes": "Caja de 17 bolsas (30,6 grs.). Ingredientes: Melisa, rooibos, regaliz, canela, cáscara de cacao, albahaca, menta piperita, flores de manzanilla, romero, pimienta negra, hinojo, flores de lavanda. Todos los ingredientes son de cultivo ecológico. SIN  CAFEÍNA.",
+        "precio_gramo": 3.80,
+        "imagen": "/assets/img/img-productos/infusiones-y-te-envasados/yogi-tea-armonia-interior-bio.jpg"
+    },
+    {
+        "id_prod": 191,
+        "id_categoria": 24,
+        "nombre": "Infusión Chai Cúrcuma BIO (Yogi Tea)",
+        "ingredientes": "Caja de 17 bolsas (30,6 grs.). Ingredientes: Cúrcuma, canela, regaliz, jengibre, cardamomo, pimienta negra, manzana, hinojo, macis, cáscara de cacao, clavo. Todos los ingredientes son de cultivo ecológico. SIN  CAFEÍNA.",
+        "precio_gramo": 3.80,
+        "imagen": "/assets/img/img-productos/infusiones-y-te-envasados/yogi-tea-chai-curcuma-bio.jpg"
+    },
+    {
+        "id_prod": 192,
+        "id_categoria": 24,
+        "nombre": "Té negro Chai BIO (Yogi Tea)",
+        "ingredientes": "Caja de 17 bolsas (30,6 grs.). Ingredientes: Té negro, jengibre, canela, anís, rooibos, achicoria tostada, pimienta negra, clavo, aceite de canela, aceite de jengibre. Todos los ingredientes son de cultivo ecológico.",
+        "precio_gramo": 3.80,
+        "imagen": "/assets/img/img-productos/infusiones-y-te-envasados/yogi-tea-chai-negro-bio.jpg"
+    },
+    {
+        "id_prod": 193,
+        "id_categoria": 24,
+        "nombre": "Té verde Chai BIO (Yogi Tea)",
+        "ingredientes": "Caja de 17 bolsas (30,6 grs.) . Ingredientes: canela, hierbabuena, té verde, jengibre, cardamomo, clavo, pimienta negra, aceite de canela. Todos los ingredientes son de cultivo ecológico.",
+        "precio_gramo": 3.80,
+        "imagen": "/assets/img/img-productos/infusiones-y-te-envasados/yogi-tea-chai-verde-bio.jpg"
+    },
+    {
+        "id_prod": 194,
+        "id_categoria": 24,
+        "nombre": "Infusión Choco BIO (Yogi Tea)",
+        "ingredientes": "Caja de 17 bolsas (30,6 grs.). Ingredientes: cáscara de cacao, regaliz, canela, cebada malteada, algarroba, cardamomo, jengibre, clavos, aceite de jengibre, pimienta negra, extracto de vainilla, vainilla en vaina. Todos los ingredientes son de cultivo ecológico. SIN  CAFEÍNA.",
+        "precio_gramo": 3.80,
+        "imagen": "/assets/img/img-productos/infusiones-y-te-envasados/yogi-tea-choco-bio.jpg"
+    },
+    {
+        "id_prod": 195,
+        "id_categoria": 24,
+        "nombre": "Infusión Clasic BIO (Yogi Tea)",
+        "ingredientes": "Caja de 17 bolsas (30,6 grs.). Ingredientes: canela, cardamomo, jengibre, clavo, pimienta negra, aceite de canela.  Todos los ingredientes son de cultivo ecológico. SIN  CAFEÍNA.",
+        "precio_gramo": 3.80,
+        "imagen": "/assets/img/img-productos/infusiones-y-te-envasados/yogi-tea-clasic-bio.jpg"
+    },
+    {
+        "id_prod": 196,
+        "id_categoria": 24,
+        "nombre": "Infusión Digestión  BIO (Yogi Tea)",
+        "ingredientes": "Caja de 17 bolsas (30,6 grs.). Ingredientes: Cardamomo, hinojo, cilantro, cebada malteada, regaliz, menta piperita, jengibre, canela, pimienta negra, clavo. Todos los ingredientes son de cultivo ecológico. SIN  CAFEÍNA.",
+        "precio_gramo": 3.80,
+        "imagen": "/assets/img/img-productos/infusiones-y-te-envasados/yogi-tea-digestion-bio.jpg"
+    },
+    {
+        "id_prod": 197,
+        "id_categoria": 24,
+        "nombre": "Infusión Felicidad  BIO (Yogi Tea)",
+        "ingredientes": "Caja de 17 bolsas (30,6 grs.). Ingredientes: Canela, jengibre, hinojo, regaliz, anís, cardamomo, cáscara de naranja, lúpulo, albahaca, aceite esencial de naranja, pimienta negra, flores de lavanda, fenogreco, milenrama, clavo, aceite de canela. Todos los ingredientes son de cultivo ecológico. SIN  CAFEÍNA.",
+        "precio_gramo": 3.80,
+        "imagen": "/assets/img/img-productos/infusiones-y-te-envasados/yogi-tea-felicidad-bio.jpg"
+    },
+    {
+        "id_prod": 198,
+        "id_categoria": 24,
+        "nombre": "Infusión Ginseng  BIO (Yogi Tea)",
+        "ingredientes": "Caja de 17 bolsas (30,6 grs.). Ingredientes: Hierba limón, menta piperita, rosa canina, cáscara de naranja, regaliz, cardamomo, raíz de ginseng*, canela, jengibre, aceite esencial de limón, ortiga, alfalfa, pimienta negra, clavo, bebida de kombucha deshidratada. Todos los ingredientes son de cultivo ecológico. SIN  CAFEÍNA.",
+        "precio_gramo": 3.80,
+        "imagen": "/assets/img/img-productos/infusiones-y-te-envasados/yogi-tea-ginseng-bio.jpg"
+    },
+    {
+        "id_prod": 199,
+        "id_categoria": 24,
+        "nombre": "Infusión Jengibre, naranja y vainilla BIO (Yogi Tea)",
+        "ingredientes": "Caja de 17 bolsas (30,6 grs.). Ingredientes:jengibre, regaliz, hierba limón, cáscara de naranja, pimienta negra, extracto de vainilla, aceite esencial de naranja, menta piperita, anís. Todos los ingredientes son de cultivo ecológico. SIN  CAFEÍNA.",
+        "precio_gramo": 3.80,
+        "imagen": "/assets/img/img-productos/infusiones-y-te-envasados/yogi-tea-jengibre-naranja-vainilla-bio.jpg"
+    },
+    {
+        "id_prod": 200,
+        "id_categoria": 24,
+        "nombre": "Infusión Jengibre y limón BIO (Yogi Tea)",
+        "ingredientes": "Caja de 17 bolsas (30,6 grs.).Ingredientes: Jengibre, regaliz, hierba limón, pimienta negra, cáscara de limón, menta piperita, aceite esencial de limón, hibisco, zumo de limón deshidratado. Todos los ingredientes son de cultivo ecológico. SIN  CAFEÍNA.",
+        "precio_gramo": 3.80,
+        "imagen": "/assets/img/img-productos/infusiones-y-te-envasados/yogi-tea-jengibre-y-limon-bio.jpg"
+    },
+    {
+        "id_prod": 201,
+        "id_categoria": 24,
+        "nombre": "Infusión Lima y menta  BIO (Yogi Tea)",
+        "ingredientes": "Caja de 17 bolsas (30,6 grs.). Ingredientes: Regaliz, lima, hierbabuena, menta piperita, cardamomo, zumo de limón deshidratado, cúrcuma, jengibre, canela, clavos, pimienta negra. Todos los ingredientes son de cultivo ecológico. SIN  CAFEÍNA.",
+        "precio_gramo": 3.80,
+        "imagen": "/assets/img/img-productos/infusiones-y-te-envasados/yogi-tea-lima-menta-bio.jpg"
+    },
+
+    {
+        "id_prod": 203,
+        "id_categoria": 24,
+        "nombre": "Infusión Mente fresca BIO (Yogi Tea)",
+        "ingredientes": "Caja de 17 bolsas (30,6 grs.).Ingredientes: Cáscara de cacao, regaliz, menta, anís, cacao magro en polvo, canela, pimienta negra, algarroba, cardamomo, jengibre, cebada malteada, clavo y vainilla. Todos los ingredientes son de cultivo ecológico. SIN  CAFEÍNA.",
+        "precio_gramo": 3.80,
+        "imagen": "/assets/img/img-productos/infusiones-y-te-envasados/yogi-tea-mente-fresca.jpg"
+    },
+    {
+        "id_prod": 204,
+        "id_categoria": 24,
+        "nombre": "Rooibos Especias BIO (Yogi Tea)",
+        "ingredientes": "Caja de 17 bolsas (30,6 grs.). Ingredientes: Rooibos, canela, jengibre, algarroba, achicoria tostada, cardamomo, clavo, pimienta negra, aceite de canela, aceite de jengibre, aceite de cardamomo, extracto de vainilla. Todos los ingredientes son de cultivo ecológico. SIN  CAFEÍNA.",
+        "precio_gramo": 3.80,
+        "imagen": "/assets/img/img-productos/infusiones-y-te-envasados/yogi-tea-rooibos-bio.jpg"
+    },
+    {
+        "id_prod": 205,
+        "id_categoria": 24,
+        "nombre": "Té blanco con Aloe Vera BIO (Yogi Tea)",
+        "ingredientes": "Caja de 17 bolsas (30,6 grs.). Ingredientes: Albahaca, té blanco, hierba luisa, regaliz, té verde al jazmín (té verde, flores de jazmín), canela, romero, salvia, cúrcuma, hinojo, cáscara de cacao, flores de manzanilla, bayas de schisandra, gel de aloe vera concentrado 200 veces. Todos los ingredientes son de cultivo ecológico.",
+        "precio_gramo": 3.80,
+        "imagen": "/assets/img/img-productos/infusiones-y-te-envasados/yogi-tea-te-blanco-aloe-verabio.jpg"
+    },
+    {
+        "id_prod": 206,
+        "id_categoria": 16,
+        "nombre": "Té Negro Mezcla Rusa BIO",
+        "ingredientes": "Mezcla de tés negros de cultivo ecológico certificado: Darjeeling (India), Assam (India) y Keemun (china). Te gustará si buscas un té potente con el que empezar el día.",
+        "precio_gramo": 0.092,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-negro-mezcla-rusa-bio.jpg",
+        "new": true
+    },
+    {
+        "id_prod": 207,
+        "id_categoria": 17,
+        "nombre": "Té negro Crema de Fresa",
+        "ingredientes": "Té negro, fresas, hojas de fresa, aroma.",
+        "precio_gramo": 0.075,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-negro-crema-de-fresa.jpg"
+    },
+    {
+        "id_prod": 208,
+        "id_categoria": 17,
+        "nombre": "Té negro Lima & flores",
+        "ingredientes": "Té negro, lima, pétalos de malva y de hibisco blanco, aroma.",
+        "precio_gramo": 0.076,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-negro-lima-y-flores.jpg"
+    },
+    {
+        "id_prod": 209,
+        "id_categoria": 17,
+        "nombre": "Té negro Melocotón, piña y melón",
+        "ingredientes": "é negro, melocotón, piña, melón Cantaloup, pétalos de osmanto, aciano rojo y aciano blanco, aroma.",
+        "precio_gramo": 0.075,
+        "imagen": "/assets/img/img-productos/te-a-granel/te-negro-melocoton-pina-y-melon.jpg"
+    }
+]

@@ -1,0 +1,46 @@
+
+<div class="row animated fadeIn slow mb-2">
+
+    <div class="col">
+        <form>
+            <label for="exampleInput1">Búsqueda por Nombre o Ingrediente</label>
+            <div class="input-group">
+                <input #termino [value]="texto" type="text" class="form-control" id="exampleInput1" (keyup.enter)="buscar_algo(termino.value)">
+                <button class="btn btn-outline-secondary dropdown-toggle ml-2" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Filtar por {{nomb_ingre}}</button>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item puntero" style="font-size: 13px;" (click)="buscarNombre(termino.value)">Nombre</a>
+                    <a class="dropdown-item puntero" style="font-size: 13px;" (click)="buscarIngre(termino.value)">Ingrediente</a>
+                </div>
+            </div>
+            <small id="exampleInput1Help" class="form-text text-muted">Selecciona opcion en el botón "Filtar..."</small>
+        </form>
+    </div>
+
+</div>
+
+<hr>
+
+<div class="row animated fadeIn slow mb-1 mt-1 mx-1 text-center">
+    <div class="col">
+        <h2 style="line-height:8px;margin-top: 10px;"><small>Resultado de la búsqueda:</small> {{texto}} </h2>
+        <h2 style="line-height:8px;"><small>filtrado por</small> {{nomb_ingre}}</h2>
+        <p style="line-height:12px;" *ngIf="productos.length > 1">Se han encontrado <span style="font-weight: bold;">{{productos.length}}</span> productos.</p>
+        <p style="line-height:12px;" *ngIf="productos.length == 1">Se ha encontrado <span style="font-weight: bold;">1</span> producto.</p>
+        <p style="line-height:12px;" *ngIf="productos.length == 0">No se han encontrado productos.</p>
+    </div>  
+</div>
+
+<hr>
+
+
+<div class="row row-cols-2 row-cols-md-4 mx-2 animated fadeIn slow">
+    <div class="col" *ngFor="let producto of productos">
+        <div class="card h-100" style="border: 0;" (click)="abrirProducto(producto.id_prod)">
+            <img [src]="producto.imagen | imagenes" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h3 style="line-height:17px;" class="card-title text-center">{{producto.nombre}}</h3>
+            </div>
+        </div>
+    </div>
+</div>
+

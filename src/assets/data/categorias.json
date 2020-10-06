@@ -1,0 +1,109 @@
+[
+    {
+      "id":1,
+      "nombre":"Té a granel",
+      "imagen":"/assets/img/primaria-te-a-granel.png",
+      "subcategorias": [
+        {
+          "id":8,
+          "nombre":"Té blanco puro",
+          "imagen":"/assets/img/te-a-granel/secundaria-te-blanco-puro.png"
+        },
+        {
+          "id":9,
+          "nombre":"Té blanco aromas",
+          "imagen":"/assets/img/te-a-granel/secundaria-te-blanco-aromas.png"
+        },
+        {
+          "id":10,
+          "nombre":"Té verde puro",
+          "imagen":"/assets/img/te-a-granel/secundaria-te-verde-puro.png"
+        },
+        {
+          "id":11,
+          "nombre":"Té verde aromas",
+          "imagen":"/assets/img/te-a-granel/secundaria-te-verde-aromas.png"
+        },
+        {
+          "id":12,
+          "nombre":"Té oolong puro",
+          "imagen":"/assets/img/te-a-granel/secundaria-te-oolong-puro.png"
+        },
+        {
+          "id":13,
+          "nombre":"Té oolong aromas",
+          "imagen":"/assets/img/te-a-granel/secundaria-te-oolong-aromas.png"
+        },
+        {
+          "id":14,
+          "nombre":"Té pu erh puro",
+          "imagen":"/assets/img/te-a-granel/te-pu-erh-puro.png"
+        },
+        {
+          "id":15,
+          "nombre":"Té pu erh aromas",
+          "imagen":"/assets/img/te-a-granel/te-pu-erh-aromas.png"
+        },
+        {
+          "id":16,
+          "nombre":"Té negro puro",
+          "imagen":"/assets/img/te-a-granel/te-negro-puro.png"
+        },
+        {
+          "id":17,
+          "nombre":"Té negro aromas",
+          "imagen":"/assets/img/te-a-granel/te-negro-aromas.png"
+        },
+        {
+          "id":18,
+          "nombre":"Té verde Matcha",
+          "imagen":"/assets/img/te-a-granel/te-verde-matcha.png"
+        }
+      ]
+    },
+    {
+        "id":2,
+        "nombre":"Infusiones a granel",
+        "imagen":"/assets/img/primaria-infusiones%20a%20granel.png",
+        "subcategorias":[
+          {
+            "id":20,
+            "nombre":"Infusiones de frutas o especias",
+            "imagen":"/assets/img/infusiones-a-granel/infusiones-de-frutas-o-especias.png"
+          },
+          {
+            "id":21,
+            "nombre":"Infusiones herbales",
+            "imagen":"/assets/img/infusiones-a-granel/herbales.png"
+          },
+          {
+            "id":22,
+            "nombre":"Mezclas medicinales",
+            "imagen":"/assets/img/infusiones-a-granel/mezclas-medicinales.png"
+          },
+          {
+            "id":23,
+            "nombre":"Rooibos",
+            "imagen":"/assets/img/infusiones-a-granel/Roiboos.png"
+          }
+        ]
+      },
+      {
+        "id":3,
+        "nombre":"Infusiones y té envasados",
+        "imagen":"/assets/img/primaria-infusiones%20y%20te%20envasados.png",
+        "subcategorias":[
+          {
+            "id":24,
+            "nombre":"Bolsitas",
+            "imagen":"/assets/img/Infusiones-te-envasados/bolsitas.png"
+          },
+          {
+            "id":26,
+            "nombre":"En polvo",
+            "imagen":"/assets/img/Infusiones-te-envasados/en-polvo.png"
+          }
+        ]
+      }
+
+]

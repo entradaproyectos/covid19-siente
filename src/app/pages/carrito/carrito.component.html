@@ -1,0 +1,161 @@
+<div class="text-center flex-around animated fadeIn slow" style="padding:0;">
+    <div>
+        <i class="fa fa-shopping-cart fa-2x mt-2" aria-hidden="true" style="color:#AEBD00;"></i>
+    </div>
+    <div>
+        <button class="btn btn-seguir btn-success mb-2" type="button" style="padding:3px 10px;" (click)="seguirComprando()">
+            <i class="fa fa-envelope" aria-hidden="true"></i>
+            Seguir Comprando
+        </button>
+    </div>
+
+    <div *ngIf="!mailto">
+        <button (click)="tocarBoton()" class="btn btn-outline-success btn-enviar mb-2" type="button" style="padding:3px 10px;">
+            <i class="fa fa-envelope" aria-hidden="true"></i>
+            Enviar Pedido
+        </button>
+    </div>
+
+    <!-- <div *ngIf="mailto">
+        <a [href]="emailstring" target="_top" id="mailtoClick" name="mailtoClick" class="mailto">
+            <button class="btn btn-outline-success btn-enviar mb-2"  type="button" style="color:orange;padding:3px 10px;">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                Enviar Pedido
+            </button>
+        </a>
+    </div> -->
+
+    <div *ngIf="mailto">
+        <a [href]="emailstring" target="_top" id="mailtoClick" name="mailtoClick" class="mailto btn btn-outline-success btn-enviar mb-2" style="color:orange;padding:3px 10px;">
+            <i class="fa fa-envelope" aria-hidden="true"></i> Enviar Pedido
+        </a>
+    </div>
+
+</div>
+
+<div class="row row-cols-1 row-cols-md-2 animated fadeIn slow" *ngIf="pedido">
+
+    <div class="col mb-3">
+        <div class="flex-between mb-2" style="width: 100%;background-color: #AEBD00;" (click)="instrucciones = !instrucciones">
+            <h2 style="margin-bottom: 0px;margin-left: 10px;">Instrucciones - Guía <small>Click para ver</small></h2>
+            <div style="padding:2px 15px;">
+                <i class="fa fa-caret-down fa-2x" aria-hidden="true" style="color:#343a40" *ngIf="!instrucciones" (click)="mostrarInstrucciones()"></i>
+                <i class="fa fa-caret-up fa-2x" aria-hidden="true" style="color:#343a40" *ngIf="instrucciones" (click)="ocultarInstrucciones()"></i>
+            </div>
+        </div>
+        <div class="animated fadeIn slow mb-2" style="width: 100%;background-color: #d4d4d4de;padding:10px;" *ngIf="instrucciones">
+            <p style="margin-bottom: 0px;color: #343a40;">
+                <span style="font-weight:bold;color:#AEBD00">Hola tealover!</span> Aquí tienes una pequeña guía para usar el carrito<span style="font-weight:bold;color:#AEBD00"> Es muy sencillo!</span><br>
+            </p>
+            <p style="margin-bottom: 0px;color: #343a40;">
+                <i class="fa fa-asterisk" aria-hidden="true"></i> Arriba tienes las opciones de "Seguir comprando" y "Enviar Pedido". Al enviar el pedido te <span style="font-weight:bold;">pedirá que abras el programa para enviar un email</span> en el
+                cual te ssaldrán los datos del pedido automáticamente, lo envías y te contestaremos lo más rápido posible.<br>
+            </p>
+            <p style="margin-bottom: 0px;color: #343a40;">
+                <i class="fa fa-asterisk" aria-hidden="true"></i> Puedes <span style="font-weight:bold;">cambiar las unidades</span> de cada artículo con los botones: <img style="width:50px;" src="/assets/img/mas-menos.png" alt="">
+            </p>
+            <p style="margin-bottom: 0px;color: #343a40;">
+                <i class="fa fa-asterisk" aria-hidden="true"></i> Puedes <span style="font-weight:bold;">cambiar el gramaje</span> de las bolsas de cada artículo con los botones: <img style="width:100px;" src="/assets/img/gramos.png" alt="">
+            </p>
+            <p style="margin-bottom: 0px;color: #343a40;">
+                <i class="fa fa-asterisk" aria-hidden="true"></i> Puedes <span style="font-weight:bold;">eliminar un artículo</span> con el botón: <img style="width:34px;" src="/assets/img/eliminar.png" alt="">
+            </p>
+            <p style="margin-bottom: 0px;color: #343a40;">
+                <i class="fa fa-asterisk" aria-hidden="true"></i>
+                <strong>¡¡No te olvides de poner TUS DATOS en email!!</strong>
+            </p>
+            <p style="margin-bottom: 0px;color: #343a40;">
+                <i class="fa fa-asterisk" aria-hidden="true"></i> El <b>método de pago</b> te lo enviaremos con la confirmación de tu pedido <i>(transferencia, paypal y bizum)</i>.<br>
+                <span style="font-weight:bold;color:#AEBD00">Gracias por tu confianza en Siente ;)</span>
+            </p>
+        </div>
+        <div>
+            <div class="datos-pedido">
+                <h3>Referencia de pedido:</h3>
+                <h3><span style="font-weight:bold;">{{pedido.id_ped}}</span></h3>
+            </div>
+            <div class="datos-pedido">
+                <h3>Creado:</h3>
+                <h3><span style="font-weight:bold;">{{pedido.creadaEn}}</span></h3>
+            </div>
+            <div class="datos-pedido">
+                <h3>Número de artículos:</h3>
+                <h3><span style="font-weight:bold;">{{pedido.num_art}}</span></h3>
+            </div>
+            <div class="datos-pedido">
+                <h3>Precio con IVA:</h3>
+                <h3><span style="font-weight:bold;">{{pedido.precio_final | currency :'EUR'}}</span></h3>
+            </div>
+            <div class="datos-pedido">
+                <h3 style="margin-bottom: 4px;">Precio del transporte:</h3>
+                <h3><span style="font-weight:bold;">{{pedido.precio_transp | currency :'EUR'}}</span></h3>
+            </div>
+            <div *ngIf="!pedido.precio_transp" class="alert alert-danger" role="alert" style="padding:5px 10px;margin-bottom: 5px;">
+                <small>Debes seleccionar una opción de envío</small>
+            </div>
+            <div style="padding-left: 20px;padding-top: 0;">
+                <form>
+                    <input type="radio" #barcelona id="barcelona" name="pTransp" value="4.50" (click)="seleccionarTransp($event)">
+                    <label for="pTransp">&nbsp;&nbsp;&nbsp;&nbsp; Provincia de Barcelona <span style="font-weight:bold;">+ {{4.50 | currency :'EUR'}}</span></label><br>
+
+                    <input type="radio" #peninsula id="peninsula" name="pTransp" value="4.90" (click)="seleccionarTransp($event)">
+                    <label for="pTransp">&nbsp;&nbsp;&nbsp;&nbsp; Otras provincias <span style="font-weight:bold;">+ {{4.90 | currency :'EUR'}}</span></label><br>
+                    <input type="radio" #baleares id="baleares" name="pTransp" value="11.90" (click)="seleccionarTransp($event)">
+                    <label for="pTransp">&nbsp;&nbsp;&nbsp;&nbsp; Baleares <span style="font-weight:bold;">+ {{11.90 | currency :'EUR'}}</span></label>
+                </form>
+            </div>
+            <div class="datos-pedido">
+                <h2>Precio Final:</h2>
+                <h2><span style="font-weight:bold;">{{pedido.precio_final + pedido.precio_transp | currency :'EUR'}}</span></h2>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="col">
+
+        <ul class="list-unstyled">
+            <li class="media borde-gris mb-1" *ngFor="let item of pedido.articulos;let i = index;">
+                <img [src]="item.imagen | imagenes" class="mr-3 img-carrito" alt="...">
+                <div class="media-body pb-1">
+                    <div style="display: flex; justify-content: space-between;">
+                        <h3 style="line-height: 18px;" class="mt-2 mb-1"><span style="font-weight:bold;">{{item.nombre}}</span></h3>
+                        <h3 class="mt-2 mb-1 mx-2">
+                            <span style="font-weight:bold;font-size:20px;">{{item.precio_final | currency :'EUR'}}</span>
+                        </h3>
+                    </div>
+
+                    <div class="mt-1 text-right" style="display: inline-block;display: flex; justify-content: space-between;">
+
+                        <div style="display: inline-block;display: flex; justify-content: space-between;">
+                            <div class="circ" style="margin-top: 0px;margin-right:5px;border:1px solid black;border-radius:50%;width: 20px; height:20px; text-align:center;background-color: #cad7e2;">
+                                <i (click)="sumarUd(item,i)" class="fa fa-plus" aria-hidden="true"></i>
+                            </div>
+                            <p style="font-size:30px;line-height: 0px;margin-top: 10px;">{{item.unidades}}</p>
+                            <div class="circ" style="margin-top: 0px;margin-left:5px;border:1px solid black;border-radius:50%;width: 20px; height:20px; text-align:center;background-color: #cad7e2;">
+                                <i (click)="restarUd(item,i)" class="fa fa-minus" aria-hidden="true"></i>
+                            </div>
+                        </div>
+
+                        <div class="item_carrito" *ngIf="item.cantidad > 49">
+                            <!-- <h3 class="mt-0 mb-1">{{item.cantidad}} <span>gr</span> </h3> -->
+                            <span (click)="cantidad50(item,i)" *ngIf="item.cantidad !== 50" class="badge badge-pill badge-secondary mr-1 puntero" style="background-color: #6c757d;">50gr</span>
+                            <span *ngIf="item.cantidad == 50" class="badge badge-pill badge-secondary mr-1" style="background-color: #AEBD00;">50gr</span>
+                            <span (click)="cantidad100(item,i)" *ngIf="item.cantidad !== 100" class="badge badge-pill badge-secondary mr-1 puntero" style="background-color: #6c757d;">100gr</span>
+                            <span *ngIf="item.cantidad == 100" class="badge badge-pill badge-secondary mr-1" style="background-color: #AEBD00;">100gr</span>
+                            <span (click)="cantidad250(item,i)" *ngIf="item.cantidad !== 250" class="badge badge-pill badge-secondary mr-1 puntero" style="background-color: #6c757d;">250gr</span>
+                            <span *ngIf="item.cantidad == 250" class="badge badge-pill badge-secondary mr-1" style="background-color: #AEBD00;">250gr</span>
+                        </div>
+
+
+
+                        <div class="item_carrito_btns mx-2">
+                            <button (click)="borrarItem(item)" class="btn btn-outline-danger" type="button" style="padding:3px 10px;"><i class="fa fa-trash-o" aria-hidden="true"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+
+    </div>

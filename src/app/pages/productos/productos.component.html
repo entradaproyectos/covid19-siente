@@ -1,0 +1,37 @@
+<div class="text-center" *ngIf="loading">
+    <i class="fa fa-spinner fa-spin fa-3x mb-2" aria-hidden="true"></i>
+</div>
+
+<app-bread [productos]="productos" *ngIf="productos"></app-bread>
+
+<div class="row row-cols-2 row-cols-md-5 animated fadeIn slow mr-1" *ngIf="productos">
+    <div class="col" *ngFor="let producto of productos" style="height:70%;line-height: 0;" (click)="abrirProducto(producto.id_prod)">
+        <div style="height:50%">
+            <div class="circulo-precio" *ngIf="producto.precio_gramo < 2">
+                <img src="../../../assets/img/bolsitas/icono-bolsa-50.png" alt="">
+                <p *ngIf="!producto.oferta">{{producto.precio_gramo * 50 | currency:'EUR'}}</p>
+                <p *ngIf="producto.oferta">{{producto.precio_gramo_oferta * 50 | currency:'EUR'}}</p>
+            </div>
+            <div class="circulo-precio" *ngIf="producto.precio_gramo > 1">
+                <p class="circulo-precio-pmas" style="position:relative;top:28px;color:#343a40;font-size: 11px;
+				">
+                    La unidad a:
+                </p>
+                <p class="circulo-precio-pmas" style="position:relative;top:27px;color:#343a40;font-size: 17px;
+				font-weight: bold;line-height: 17px;">
+                    {{producto.precio_gramo | currency:'EUR'}}
+                </p>
+            </div>
+            <div class="circulo-new" *ngIf="producto.new">
+                <p>New</p>
+            </div>
+            <div class="circulo-oferta" *ngIf="producto.oferta">
+                <p>oferta</p>
+            </div>
+            <img [src]="producto.imagen | imagenes" alt="..." style="width:110%">
+        </div>
+        <div class="text-center">
+            <h5 style="line-height: 14px;">{{producto.nombre}}</h5>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,36 @@
+<div class="row animated fadeIn slow mb-2 mx-1 main-container">
+    <h1>Historial Pedidos</h1>
+</div>
+
+<div class=" row row-cols-1 row-cols-md-2 animated fadeIn slow mb-2 mx-1">
+
+    <div class="col borde-gris mb-2 py-1" *ngFor="let pedido of pedidos_hechos">
+        <div class="flex-between">
+            <h3 >Pedido Referencia: </h3>
+            <h3><span class="text-right" style="font-weight:bold;">{{pedido.id_ped}}</span></h3>
+        </div>
+        <div class="flex-between">
+            <p >Número de artículos: </p>
+            <p>{{pedido.num_art}}</p>
+        </div>
+        <div class="flex-between">
+            <p >Entrega en: </p>
+            <p>{{pedido.fecha_entrega}}</p>
+        </div>
+        <div class="flex-between">
+            <h3 >Precio Final: </h3>
+            <h3><span style="font-weight:bold;">{{pedido.precio_final+precio_transp | currency:'EUR'}}</span></h3>
+        </div>
+        <hr style="margin:2px 5px;">
+        <div>
+            <div class="flex-between" *ngFor="let articulo of pedido.articulos">
+                <p >{{articulo.nombre}} </p>
+                <p>{{articulo.precio | currency:'EUR'}}</p>
+            </div>
+        </div>
+        <button style="padding: 0 auto !important;" class="btn btn-outline-success btn-block mt-2 mb-2 btn-enviar" (click)="rehacerPedido(pedido)">Rehacer Pedido</button>
+    </div>
+
+</div>
+
+

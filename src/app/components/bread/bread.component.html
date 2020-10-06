@@ -1,0 +1,25 @@
+  <div class="bread animated fadeIn slow puntero" [routerLink]="['/categorias']" *ngIf="elemento!='producto' && elemento!='productos'&& id_parnum < 7" >
+    <h3><small>Categorias ></small></h3>
+  </div>
+
+  <div class="bread animated fadeIn slow puntero" *ngIf="id_parnum < 7 && elemento=='categorias'">
+    <h1><small>{{nombre_categoria}} ></small></h1>
+  </div>
+
+  <div class="bread animated fadeIn slow puntero" *ngIf="elemento=='productos'" >
+    <div class="bread animated fadeIn slow puntero" (click)="IrCategoria()"> 
+      <h3><small>{{nombre_categoria}} ></small></h3>
+    </div>
+    <div class="bread animated fadeIn slow puntero" (click)="IrCategoria()"> 
+      <h3><b>{{nombre_subcategoria}}</b></h3>
+    </div>
+  </div>
+
+  <div class="bread animated fadeIn slow puntero" *ngIf="elemento=='producto'">
+    <div class="bread animated fadeIn slow puntero" (click)="IrCategoria()"> 
+      <h3 (click)="IrCategoria()" ><small>{{nombre_categoria}} ></small></h3>
+    </div>
+    <div class="bread animated fadeIn slow puntero" (click)="IrCategoria()"> 
+      <h3 (click)="IrSubCategoria()" ><b>{{nombre_subcategoria}}</b></h3>
+    </div>
+  </div>

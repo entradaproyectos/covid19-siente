@@ -1,0 +1,23 @@
+<nav class="navbar fixed-bottom navbar-expand-lg navbar-dark bg-dark text-right" style="z-index:1;">
+
+    <div class="navbar-brand">
+        <i *ngIf="pedido===undefined || !pedido" class="fa fa-shopping-cart" style="color:#c1c1c1;" aria-hidden="true"></i>
+    </div>
+
+
+    <div *ngIf="pedido!=undefined || pedido!=null" class="navbar-brand datos-pedido" style="width: 70%;">
+        <div style="visibility: hidden;">
+            <i class="fa fa-shopping-cart" style="color:#AEBD00;" aria-hidden="true"></i>
+        </div>
+        <p style="margin-bottom:0 !important;">{{pedido.num_art}} art.</p>
+        <p style="margin-bottom:0 !important;">{{pedido.precio_final | currency: 'EUR'}}</p>
+        <p style="margin-bottom:0 !important;font-size: 15px;"> + {{pedido.precio_transp | currency: 'EUR'}} envío</p>
+    </div>
+
+</nav>
+
+<div class="boton-navdown animated fadeIn slow fixed-bottom" *ngIf="pedido!=undefined || pedido!=null" [routerLink]="['/carrito']">
+    <i class="fa fa-shopping-cart fa-3x" style="color:#343a40;margin-top: 10px;margin-right: 5px;" aria-hidden="true" [routerLink]="['/carrito']"></i>
+</div>
+
+<div class="anim fixed-bottom" *ngIf="pedido!=undefined || pedido!=null" [routerLink]="['/carrito']"></div>

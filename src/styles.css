@@ -1,1 +1,470 @@
 /* You can add global styles to this file, and also import other style files */
+
+/*// Fuente: https://daneden.github.io/animate.css/*/
+
+/*// Animaciones CSS*/
+.animated {
+    -webkit-animation-duration: 0.3s;
+    animation-duration: 0.3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+  
+  @-webkit-keyframes fadeInDown {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(0, -100%, 0);
+      transform: translate3d(0, -100%, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  @keyframes fadeInDown {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(0, -100%, 0);
+      transform: translate3d(0, -100%, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  .fadeInDown {
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+  }
+  
+  
+  .fast {
+    -webkit-animation-duration: 0.3s;
+    animation-duration: 0.3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+  
+  .slow {
+    -webkit-animation-duration: 0.9s;
+    animation-duration: 0.9s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .fadeIn {
+    animation-name: fadeIn;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .fadeIn {
+    animation-name: fadeIn;
+  }
+
+
+  
+  
+.main-container{
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+
+.center-block{
+  float: none;
+}
+
+a{
+    font-size:20px;
+}
+
+.logo{
+    width:120px;
+    height: auto;
+    margin-right: 30px;
+    margin-bottom: 5px;
+}
+
+.img-mini-prod{
+    width: 120px;
+    margin: 0 10px;
+}
+
+.lab{
+    font-size: 18px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.bread{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.bolsitas{
+    width: 100%;
+
+}
+
+.bolsita{
+    width: 100%;
+}
+
+.btn-bolsitas{
+    width: 26%;
+    margin: 10px 10px;
+    display: inline-block;
+}
+.btn-producto{
+    padding-top: 20px;
+    width: 50%;
+    margin: 10px 10px;
+}
+
+.img-carrito{
+    width:80px;
+}
+.flex-around{
+    display: flex;
+    justify-content: space-around;
+}
+.flex-between{
+  display: flex;
+  justify-content: space-between;
+}
+.flex-between h3{
+  margin-bottom: 0px;
+}
+.flex-between p{
+  margin-bottom: 0px;
+}
+
+.btn-enviar{
+    color:#AEBD00;
+    border-color:#AEBD00;
+    height: 50px;
+}
+
+.btn-enviar:hover, .btn-enviar:active{
+    background-color:#AEBD00;
+    border-color:#AEBD00;
+}
+
+.btn-seguir{
+  color:#FFFFFF;
+  background-color:#AEBD00;
+  border-color:#AEBD00;
+  height: 50px;
+}
+
+.btn-seguir:hover, .btn-seguir:active{
+  background-color:#AEBD00;
+  border-color:#AEBD00;
+}
+
+.item_carrito{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.item_carrito h3{
+    display: inline-block;
+}
+.item_carrito_btns{
+    width:15%;
+    text-align: center;
+}
+.item_carrito button{
+    display: inline-block;
+
+}
+.badge{
+  height:18px;
+}
+.datos-pedido{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.datos-pedido h3{
+    margin-bottom: 0;
+}
+.titulo-carrito{
+    margin-block-start: 0;
+}
+.borde-gris{
+    border: 1px solid rgba(0,0,0,.125);
+    box-sizing: border-box;
+}
+.puntero{
+  cursor: pointer;
+}
+
+.en-linea{
+  display: inline-block;
+}
+
+.circulo-precio{
+  text-align: center;
+  position:absolute;
+  top:30%;
+  left:5%;
+  width:80px;
+  height:80px;
+  border-radius:50%;
+  background-color: #AEBD00;
+  border:2px solid #FFFFFF;
+}
+.circulo-precio img{
+  position:relative;
+  top:-20px;
+  height:90%;
+  margin-bottom: 0px;
+  filter: drop-shadow(0 0 5px rgb(51, 51, 51)   );
+  /* filter: drop-shadow(3px 5px 5px 0px rgba(0,0,0,0.4)); */
+  
+}
+.circulo-precio p{
+  position:relative;
+  top:-13px;
+  color:#343a40;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.circulo-new{
+  text-align: center;
+  position:absolute;
+  top:10%;
+  right:5%;
+  /* width:50px; */
+  height:30px;
+  padding: 3px 5px 0px 5px;
+  border-radius:10px;
+  background-color: #F7931E;
+  border:2px solid #FFFFFF;
+}
+
+.circulo-new p{
+  margin: 0px;
+  padding: 0px;
+  position:relative;
+  top:11px;
+  color:#FFFFFF;
+  font-size: 17px;
+}
+
+.circulo-new-inicio{
+  text-align: center;
+  position:absolute;
+  top:10%;
+  right:5%;
+  width:40px;
+  height:30px;
+  /* padding: 0px 2px 0px 2px; */
+  border-radius:15px;
+  background-color: #F7931E;
+  border:1px solid #FFFFFF;
+}
+
+.circulo-new-inicio p{
+  margin: 0px;
+  padding: 0px;
+  position:relative;
+  top:5px;
+  color:#FFFFFF;
+  font-size: 13px;
+}
+
+.circulo-oferta{
+  text-align: center;
+  position:absolute;
+  bottom:30%;
+  right:5%;
+  /* width:50px; */
+  height:30px;
+  padding: 3px 5px 0px 5px;
+  border-radius:10px;
+  background-color: #F1CC02;
+  border:2px solid #FFFFFF;
+}
+
+.circulo-oferta p{
+  margin: 0px;
+  padding: 0px;
+  position:relative;
+  top:11px;
+  color:#C1224E;
+  font-size: 17px;
+}
+
+.circulo-oferta-inicio{
+  text-align: center;
+  position:absolute;
+  bottom:35%;
+  right:5%;
+  width:45px;
+  height:30px;
+  /* padding: 0px 2px 0px 2px; */
+  border-radius:15px;
+  background-color: #F1CC02;
+  border:1px solid #FFFFFF;
+}
+
+.circulo-oferta-inicio p{
+  margin: 0px;
+  padding: 0px;
+  position:relative;
+  top:5px;
+  color:#C1224E;
+  font-size: 12px;
+}
+
+
+.circulo-precio-inicio{
+  text-align: center;
+  position:absolute;
+  top:30%;
+  left:5%;
+  width:55px;
+  height:55px;
+  border-radius:50%;
+  background-color: #AEBD00;
+  border:1px solid #FFFFFF;
+}
+.circulo-precio-inicio img{
+  position:relative;
+  top:-15px;
+  height:90%;
+  margin-bottom: 0px;
+  filter: drop-shadow(0 0 4px rgb(51, 51, 51)   );
+  /* filter: drop-shadow(3px 5px 5px 0px rgba(0,0,0,0.4)); */
+  
+}
+.circulo-precio-inicio p{
+  position:relative;
+  top:-18px;
+  color:#343a40;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+
+.circulos-comprar{
+  text-align: center;
+  width:80px;
+  height:80px;
+  border-radius:50%;
+  background-color: #AEBD00;
+  border:2px solid #FFFFFF;
+  
+}
+.circulos-comprar img{
+  position:relative;
+  top:-20px;
+  height:90%;
+  margin-bottom: 0px;
+  filter: drop-shadow(0 0 5px rgb(51, 51, 51)   );
+  
+}
+.circulos-comprar p{
+  position:relative;
+  top:-20px;
+  color:#343a40;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.circulos-comprar-prod{
+  text-align: center;
+  width:80px;
+  height:80px;
+  border-radius:50%;
+  background-color: #AEBD00;
+  border:2px solid #FFFFFF;
+}
+
+.circulos-comprar-prod p{
+  position:relative;
+  top:5px;
+  color:#343a40;
+  font-size: 17px;
+  font-weight: bold;
+}
+.circulos-comprar-prod h5{
+  position:relative;
+  top:20px;
+  color:#343a40;
+}
+.boton-navdown{
+  border:2px solid #343a40;
+  background-color: #AEBD00;
+  text-align:center;
+  vertical-align: middle;
+  width:70px;
+  height: 70px;
+  position:fixed;
+  bottom:-15px;
+  left:3%;
+  z-index: 2;
+  border-radius: 50%;
+}
+
+.anim{
+  
+  width:70px;
+  height: 70px;
+  position:fixed;
+  bottom:-15px;
+  left:3%;
+  z-index: 2;
+  border-radius: 50%;
+  animation-duration: 2s;
+  animation-name: circulo;
+  animation-iteration-count: 2;
+}
+@keyframes circulo {
+  from {
+    border:2px solid #AEBD00;
+    width:70px;
+    height: 70px;
+    bottom:-15px;
+    left:3%;
+    opacity: 1;
+  }
+  to {
+    border:2px solid #AEBD00;
+    width:100px;
+    height: 100px;
+    bottom:-30px;
+    left:0%;
+    opacity: 0;
+  }
+}
+
+html, body { height: 100%; }
+body {  font-family: Roboto, "Helvetica Neue", sans-serif; }

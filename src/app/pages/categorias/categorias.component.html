@@ -1,0 +1,12 @@
+<app-bread [categorias] = "categorias"></app-bread>
+
+<div class="row row-cols-2 row-cols-md-4 animated fadeIn slow">
+    <div class="col" *ngFor="let categoria of categorias">
+      <div class="card h-100" style="border: 0;" (click)="abrir(categoria.id)">
+        <img [src]="categoria.imagen | imagenes" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h3 class="card-title text-center">{{categoria.nombre}}</h3>
+        </div>
+      </div>
+    </div>
+</div>

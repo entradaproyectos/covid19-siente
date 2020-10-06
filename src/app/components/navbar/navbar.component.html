@@ -1,0 +1,55 @@
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark" style="background-color: rgb(27, 182, 40);">
+  <i *ngIf="pagina !== 'inicio'" (click)="atras()" class="fa fa-chevron-left fa-2x" style="color: #FFFFFF;" aria-hidden="true"></i>
+  <a class="navbar-brand" [routerLink]="['/inicio']" (click)="abc()">
+    <img class="logo" src="/assets/img/brand/siente_logo_negativo_144x40.png" alt="">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse animated fadeIn slow" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+
+      <li class="nav-item" (click)="abc()">
+        <a class="nav-link" [routerLink]="['/categorias']" routerLinkActive="active">
+          <i class="fa fa-list" aria-hidden="true"></i>
+          Categorias
+        </a>
+      </li>
+
+      <li class="nav-item" *ngIf="pedido"  (click)="abc()">
+        <a class="nav-link" [routerLink]="['/carrito']" routerLinkActive="active" style="color:#AEBD00;">
+          <i class="fa fa-shopping-cart" style="color:#AEBD00;" aria-hidden="true"></i>
+          Carrito
+        </a>
+      </li>
+
+      <li class="nav-item" *ngIf="pedidos_hechos"  (click)="abc()">
+        <a class="nav-link" [routerLink]="['/pedidos']" routerLinkActive="active" >
+          <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+          Pedidos
+        </a>
+      </li>
+      
+
+    </ul>
+
+    <form class="form-inline">
+      <input class="form-control mr-sm-2" type="search" placeholder="Buscar Té" aria-label="Search" (keyup.enter)="buscar(buscarTexto.value);abc()" #buscarTexto>
+  <button (click)="buscar(buscarTexto.value);abc()" class="btn btn-outline-success my-2 my-sm-0 btn-enviar" type="button">Buscar</button>
+    </form>
+
+  </div>
+</nav>
+
+<!-- colores siente 
+#AEBD00 verde
+#573100 marron -->
+
+<script type="text/javascript">
+
+// $('.nav-item').click(function(){
+//   console.log('hecho');
+// })
+
+</script>
+
